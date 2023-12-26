@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "CZX, CZX Blog, Zhixi Chen的博客, chishsichen, .NET, Fintech, Data Analysis"
 url: "http://Revive-dontwanttocode.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/Revive-dontwanttocode/Revive-dontwanttocode.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
