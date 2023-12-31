@@ -59,7 +59,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: e3893f39181521bbeded                            #生成的clientID
   clientSecret: 74f5bcd80b75996127b33eb30cce4e84d56b7cbb    #生成的clientSecret
   repo: Revive-dontwanttocode.github.io    #仓库名称
