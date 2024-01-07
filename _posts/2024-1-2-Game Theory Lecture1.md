@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Game Theory with Applications to Finance and Marketing I,  Lecture1 Notes(Sep. 22)				# 标题 
+title:      Game Theory with Applications to Finance and Marketing I, Lecture1 Notes(Sep. 22)				# 标题 
 subtitle:   Game Theory #副标题
 date:       2024-1-2 				# 时间
 author:     Chis hsi Chen						# 作者
