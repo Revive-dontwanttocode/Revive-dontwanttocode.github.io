@@ -106,13 +106,17 @@ the USA?
 ### Weakly dominated strategy
 
 **Definition 4** We say that $\sigma_i$ is weakly dominated by $\sigma_i^\prime$ for player $i$ if:
+
 $$
 u_i(\sigma_i, \sigma_{-i}) \leq u_i(\sigma_i^\prime, \sigma_{-i}), \forall \sigma_{-i} \in \Sigma_{-i}
 $$
+
 其中，$\Sigma_{-i}$是除了player $i$之外所有player的策略集合的笛卡尔积，即：
+
 $$
 \Sigma_{-i} = \Sigma_1 \times \Sigma_2 \times \dots \times \Sigma_{i-1} \times \Sigma_{i+1} \times \dots \times \Sigma_I
 $$
+
 如果将公式$(1)$中的不等号变成小于号，则称$\sigma_i$是$\sigma_i^\prime$的**strictly dominated strategy**.
 
 这个公式其实表明的是，自己出招$\sigma_i$和$\sigma_i^\prime$，不管别人出什么招，$\sigma_i^\prime$，那$\sigma_i^\prime$就是一个weakly dominated strategy；如果$\sigma_i^\prime$严格比$\sigma_i$的收益来的好，那就是strictly dominated strategy。
