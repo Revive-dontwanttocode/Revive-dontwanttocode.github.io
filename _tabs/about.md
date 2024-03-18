@@ -26,11 +26,13 @@ No I'm applying for several Master Program oversea in 2024-2025. My interest is 
 > * Master of Science in Data Science and Machine Learning @ National University of Singapore
 > * Master of Science in Data Science @ Nanyang Technological University
 > * Master of Science in Financial Technology @ Nanyang Technological University
+> * Master of Science in Financial Technology @ HongKong University of Science and Technology 
 {: .prompt-tip}
 
 ### Bachelor
 
 I received my Bachelor of Engineering Degree in Northeastern University, China from Sept. 2020 to Jul. 2024. 
+
 My major is `Software Engineering`, and my minor is `Finance`. 
 I studied at `Financial Technology` Track.
 
@@ -45,4 +47,22 @@ I studied at `Financial Technology` Track.
 > Software Engineering Debate Team - Vice Capitan (Sept. 2021 - Dec. 2022)
 {: .prompt-tip }
 
-## Honour
+## Honours and Awards
+
+* Third Class Scholarship, Northeastern University School of Software - Nov. 2023
+* First Prize and Most Creative Award, 2023 Northeastern University LLM Financial Development Competition - May. 2023
+* Third Class Scholarship, Northeastern University School of Software - Nov. 2022
+* Outstanding Individual with Academic Strengths at Northeastern University - Nov.2022
+* National Second Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
+* Provincial First Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
+* Honorable Mention, 2022 Mathematical Contest in Modeling (MCM) - Apr. 2022
+* Third Prize, National English Competition for College Students - May. 2021
+* Outstanding Individual with Academic Strengths at Northeastern University - Nov. 2021
+
+## Patent and Software Copyright
+
+* 沪深股票查软件V1.0, Supervised by Associated Professor Yin Zhang(NEU), Registration No. 2023SR0473375 - Apr. 2023, 
+
+## Other Interest
+
+I love `Modern History` and `Politics Philosophy Theorem`.
