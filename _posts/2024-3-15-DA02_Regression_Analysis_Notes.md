@@ -9,6 +9,7 @@ math: true
 mermaid: true
 catalog:    true                        # 是否归档
 categories: ['Course Notes']
+comments: true
 tags: # 标签
   - Data Analysis
   - Lecture Note
