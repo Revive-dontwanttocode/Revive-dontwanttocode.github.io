@@ -1,9 +1,12 @@
 ---
 layout:     post
-title:      Machine Learning Lecture 8 - Auto-Encoding
+title:      Machine Learning Lecture 8 Auto Encoding
 subtitle:   Machine Learning
-date:       2024-3-18 21:43:00
+date:       2024-3-18 21:43:29
 author:     czx
+toc: true
+math: true
+mermaid: true
 catalog:    true
 categories: ['Course Notes']
 comments: true
