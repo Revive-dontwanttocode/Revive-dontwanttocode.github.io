@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Machine Learning Lecture 8 Auto Encoding
-subtitle:   Machine Learning
-date:       2024-3-18 21:43:29
+subtitle:   What is auto encoding?
+date:       2024-3-18 21:43:29 +0800
 author:     czx
 toc:        true
 math:       true
