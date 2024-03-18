@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      DA02 Regression Analysis
-subtitle:   Data Analytic
+title:      Machine Learning Lecture 8 - Auto-Encoding
+subtitle:   Machine Learning
 date:       2024-3-18 21:43:00
 author:     czx
 catalog:    true
