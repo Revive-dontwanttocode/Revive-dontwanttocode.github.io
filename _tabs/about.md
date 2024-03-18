@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+comment: true
 ---
 
 # <center> Chishsi Chen
@@ -44,7 +45,7 @@ I studied at `Financial Technology` Track.
 > 2023 Winter Cambridge Academic Programme - Winter Student (Jan. 2023 - Mar. 2023)
 {: .prompt-tip }
 
-> Software Engineering Debate Team - Vice Capitan (Sept. 2021 - Dec. 2022)
+> Northeastern University Software College Debate Team - Vice Capitan (Sept. 2021 - Dec. 2022)
 {: .prompt-tip }
 
 ## Honours and Awards
@@ -56,8 +57,9 @@ I studied at `Financial Technology` Track.
 * National Second Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
 * Provincial First Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
 * Honorable Mention, 2022 Mathematical Contest in Modeling (MCM) - Apr. 2022
-* Third Prize, National English Competition for College Students - May. 2021
 * Outstanding Individual with Academic Strengths at Northeastern University - Nov. 2021
+* Third Prize, National English Competition for College Students - May. 2021
+* Northeastern University Freshman Debate Competition, Top 3 of Hunnan Campus - Dec. 2020
 
 ## Patent and Software Copyright
 
@@ -65,4 +67,4 @@ I studied at `Financial Technology` Track.
 
 ## Other Interest
 
-I love `Modern History` and `Politics Philosophy Theorem`.
+I love `Modern History`, `Politics Philosophy Theorem` and `laws`. Moreover, I love playing `snooker` and `chess`.
