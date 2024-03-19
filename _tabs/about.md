@@ -60,7 +60,7 @@ I studied at `Financial Technology` Track.
 
 ## Patent and Software Copyright
 
-* 沪深股票查软件 V1.0, Supervised by Associated Professor [Yin Zhang (NEU)](http://faculty.neu.edu.cn/zhangyin/), *Registration No. 2023SR0473375* - Apr. 2023. 
+* 沪深股票查软件 V1.0, Supervised by Associated Professor Yin Zhang (NEU), *Registration No. 2023SR0473375* - Apr. 2023. 
 
 ## Other Interest
 
