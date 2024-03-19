@@ -2,7 +2,7 @@
 layout:     post
 title:      DA04 Dimension Reduction, Part I
 subtitle:   Data Analytics
-date:       2024-03-19 11:33:00 +0800
+date:       2024-03-19 21:33:00 +0800
 author:     czx
 toc:        true
 math:       true
