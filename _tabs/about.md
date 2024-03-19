@@ -10,11 +10,11 @@ order: 4
 
 ### Graduate
 
-No I'm applying for several Master Program oversea in 2024-2025. My interest is `Financial Technology`, `Data Science` and `Financial Engineering`.
+Now I'm applying for several Master Program oversea in `2024-2025`. My interest is `Financial Technology`, `Data Science` and `Financial Engineering`.
 
 > Here are Several Programme Offer I have already received:
-> * Master of Science in Computer Science (Financial Computing Stream) @ HongKong University
-> * Master of Science in Financial Technology @ Chinese University of HongKong
+> * Master of Science in Computer Science (Financial Computing Stream) @ Hong Kong University
+> * Master of Science in Financial Technology @ Chinese University of Hong Kong
 {: .prompt-info}
 
 > And now I still pursuit for other Graduate Programme:
@@ -24,7 +24,7 @@ No I'm applying for several Master Program oversea in 2024-2025. My interest is 
 > * Master of Science in Data Science and Machine Learning @ National University of Singapore
 > * Master of Science in Data Science @ Nanyang Technological University
 > * Master of Science in Financial Technology @ Nanyang Technological University
-> * Master of Science in Financial Technology @ HongKong University of Science and Technology 
+> * Master of Science in Financial Technology @ Hong Kong University of Science and Technology 
 {: .prompt-tip}
 
 ### Bachelor
