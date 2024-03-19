@@ -61,11 +61,10 @@ Just follow my personal interest. I shall always take several finance & economic
 #### Information
 
 > * Course Name: 商業賽局模型一 
-> * Lecturer: 陳其美
-> * Semester: 110-1
-> * NTU Cool Link: [商業賽局模型一 ( Fin 7035 )](https://cool.ntu.edu.tw/courses/7971)
->
-> {: .prompt-info }
+* Lecturer: 陳其美
+* Semester: 110-1
+* NTU Cool Link: [商業賽局模型一 ( Fin 7035 )](https://cool.ntu.edu.tw/courses/7971)
+{: .prompt-info }
 
 #### Syllabus
 
