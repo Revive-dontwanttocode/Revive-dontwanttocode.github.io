@@ -18,7 +18,7 @@ Now I'm applying for several Master Program oversea in `2024-2025`. My interest 
 {: .prompt-info}
 
 > And now I still pursuit for other Graduate Programme:
-> * Master of Science in Digital Financial Technology @ National University of Singapore
+> * Master of Science in Digital Financial Technology @ National University of Singapore **Most Wanted!**
 > * Master of Computing (AI Specialisation) @ National University of Singapore
 > * Master of Science in Financial Engineering @ National University of Singapore
 > * Master of Science in Data Science and Machine Learning @ National University of Singapore
@@ -29,7 +29,7 @@ Now I'm applying for several Master Program oversea in `2024-2025`. My interest 
 
 ### Bachelor
 
-I will receive my **Bachelor of Engineering Degree on Software Engineering** in Northeastern University, China from Sept. 2020 to Jul. 2024. 
+I received my **Bachelor of Engineering Degree on Software Engineering** in Northeastern University, China from Sept. 2020 to Jul. 2024. 
 
 My major is `Software Engineering`, and my minor is `Finance`. 
 I studied at `Financial Technology` Track.
@@ -39,7 +39,7 @@ I studied at `Financial Technology` Track.
 > Link-us Company - Java Development Engineer (May. 2023 - Jul. 2023)
 {: .prompt-tip }
 
-> 2023 Winter Cambridge Academic Programme - Winter Student (Jan. 2023 - Mar. 2023)
+> 2023 Cambridge Academic Programme - Winter Student (Jan. 2023 - Mar. 2023)
 {: .prompt-tip }
 
 > Northeastern University Software College Debate Team - Vice Capitan (Sept. 2021 - Dec. 2022)
@@ -60,7 +60,7 @@ I studied at `Financial Technology` Track.
 
 ## Patent and Software Copyright
 
-* 沪深股票查软件V1.0, Supervised by Associated Professor Yin Zhang (NEU), Registration No. 2023SR0473375 - Apr. 2023, 
+* 沪深股票查软件 V1.0, Supervised by Associated Professor [Yin Zhang (NEU)](http://faculty.neu.edu.cn/zhangyin/), *Registration No. 2023SR0473375* - Apr. 2023. 
 
 ## Other Interest
 
