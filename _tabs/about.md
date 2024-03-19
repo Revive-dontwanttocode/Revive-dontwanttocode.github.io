@@ -6,8 +6,6 @@ order: 4
 
 # <center> Chishsi Chen
 
-This is Chishsi Chen's blog.
-
 ## Education 
 
 ### Graduate
@@ -31,7 +29,7 @@ No I'm applying for several Master Program oversea in 2024-2025. My interest is 
 
 ### Bachelor
 
-I received my Bachelor of Engineering Degree in Northeastern University, China from Sept. 2020 to Jul. 2024. 
+I will receive my **Bachelor of Engineering Degree on Software Engineering** in Northeastern University, China from Sept. 2020 to Jul. 2024. 
 
 My major is `Software Engineering`, and my minor is `Finance`. 
 I studied at `Financial Technology` Track.
@@ -62,7 +60,7 @@ I studied at `Financial Technology` Track.
 
 ## Patent and Software Copyright
 
-* 沪深股票查软件V1.0, Supervised by Associated Professor Yin Zhang(NEU), Registration No. 2023SR0473375 - Apr. 2023, 
+* 沪深股票查软件V1.0, Supervised by Associated Professor Yin Zhang (NEU), Registration No. 2023SR0473375 - Apr. 2023, 
 
 ## Other Interest
 
