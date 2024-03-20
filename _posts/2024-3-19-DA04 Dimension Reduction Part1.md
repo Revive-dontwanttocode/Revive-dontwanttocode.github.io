@@ -1,4 +1,3 @@
-```
 ---
 layout:     post
 title:      DA04 Dimension Reduction, Part I
@@ -16,7 +15,6 @@ tags:
   - Lecture Note
   - Statistics
 ---
-```
 
 # DA04 Dimension Reduction :: Part I Note
 
@@ -163,9 +161,11 @@ where $t$ is a `tuning factor`.
 这里加入的限制条件如上。我们称这个限制条件为所谓的 `L1-norm constraint` 。
 
 我们也可以利用凸优化的相关知识，将上面两式合并为一个，即：
+
 $$
 \arg \min_\beta \sum^n_{i = 1} [(y_i - \beta_0 - \beta_ix_{i, 1} - ... - \beta_px_{i, p})^2 + \lambda \sum^p_{j = 1} |\beta_j|] -\lambda t
 $$
+
 这样我们后续便可以对这个式子进行 minimize 操作。我们将 $\lambda$ 称为 `lagrange multiplier` 。
 
 > In Lasso, we want to **Kill the coefficient beta**. We hope our constraint shrink those insignificant or small $\beta$ , and force them to be 0.
@@ -176,19 +176,25 @@ $$
 ### Ridge Regression (RR)
 
 在所谓的 `Ridge Regression` 中，我们更换了 constraint ，但是整体的目标和架构与 Lasso 没什么出入。
+
 $$
 \arg \min_\beta \sum^n_{i = 1} (y_i - \beta_0 - \beta_ix_{i, 1} - ... - \beta_px_{i, p})^2
 $$
+
 subject to:
+
 $$
 \sum^p_{j = 1} \beta_j^2 \leq t
 $$
+
 where $t$ is a `tuning factor` .
 
 The equivalent expression is:
+
 $$
 \arg \min_\beta \sum^n_{i = 1} [(y_i - \beta_0 - \beta_ix_{i, 1} - ... - \beta_px_{i, p})^2 + \lambda \sum^p_{j = 1} \beta_j^2] -\lambda t
 $$
+
 where $\lambda$ is also a `Lagurange Multiplier`. We want to estimate $\beta_0,\beta_1, \dots, \beta_p$.
 
 ### Mathematic behind RR
@@ -196,17 +202,23 @@ where $\lambda$ is also a `Lagurange Multiplier`. We want to estimate $\beta_0,\
 现在我们来看 RR 背后的一些数学原理。实际上 RR 和正常的回归很想，只不过双方的限制不同。
 
 在 RR 中，我们期望进行优化的函数表达式是：
+
 $$
 \mathcal{L} = ||y - x\beta|| + \lambda ||\beta|| = (y - X\beta)^T(y - X\beta) + \lambda \beta^T \beta
 $$
+
 其中， $||y - x\beta||$ 是我们的`最小二乘`，而 $\lambda ||\beta||$ 是所谓的 `L2-norm` 。我们对 $\mathcal{L}$ 求取偏微分：
+
 $$
 \frac {\partial \mathcal{L}} {\partial \beta} = 2X^TX\beta - 2X^Ty + 2\lambda \beta = 0
 $$
+
 解得：
+
 $$
 \hat{\beta} = (X^TX + \lambda I)^{-1}X^Ty
 $$
+
 这就是我们在 Ridge Regression 的限制下求得的 $\hat{\beta}$ 的估计式。
 
 那现在，所谓的 `ridge` 在什么地方？
@@ -227,23 +239,32 @@ $\longrightarrow$ `ridge` is coming from $\lambda I$ part.
 {: .prompt-danger }
 
 现在，我们来对 Lasso 的最优化过程进行处理。我们总共有 $n$ 笔资料， $p$ 个回归变量。
+
 $$
 f = \sum_{i = 1}^n [y_i - \sum_j^p x_{ij} \beta_j]^2 + \lambda \sum_j^p |\beta_j|
 $$
+
 现在对 $\beta_k$ 求偏微分：
+
 $$
 \frac {\partial f} {\partial \beta_k} = -2\sum_{i = 1}^n [x_{ik} (y_i - \sum_j^p x_{ij} \beta_j)] + \text {?}
 $$
+
 这里用一个小 trick ，将 $\beta_k$ 分离出来：
+
 $$
 \frac {\partial f} {\partial \beta_k} & = -2\sum_{i = 1}^n [x_{ik}y_i - (x_{ik} \sum^p_{j \neq k} x_{ij} \beta_j) + x_{ij}^2 \beta_k] + \lambda \\
 & = -2\sum_{i = 1}^n [x_{ik} (y_i - \sum_{j \neq k}^p x_{ij} \beta_j)] + 2\sum_{i = 1}^n x_{ik^2} \beta_k
 $$
+
 让左边的为 $C_k$ ，右边的为 $D_k$ 。上式变成：
+
 $$
 & = -2C_k + 2D_k\beta_k \\
 $$
+
 现在处理偏微分时候我们留下的 ? 项：我们有：
+
 $$
 \frac {\partial \lambda \sum |\beta_j| } {\partial \beta_k} =
 \left\{
@@ -256,7 +277,9 @@ $$
 \end{matrix}
 \right.
 $$
+
 我们现在可以合并前面的结果了。我们有：
+
 $$
 \frac {\partial f} {\partial \beta_k} =
 \left\{
@@ -269,6 +292,7 @@ $$
 \end{matrix}
 \right.
 $$
+
 现在令其为0，我们便可以得到 $\beta_k$ 的估计值 $\hat{\beta_k}$ 。并将关于 $\beta_k$ 的条件转化为关于 $C_k$ 的条件：
 
 ![image-20240320223400980](https://s2.loli.net/2024/03/20/KBNbULysWOwx6c3.png)
