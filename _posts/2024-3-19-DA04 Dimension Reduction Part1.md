@@ -204,10 +204,10 @@ where $\lambda$ is also a `Lagurange Multiplier`. We want to estimate $\beta_0,\
 在 RR 中，我们期望进行优化的函数表达式是：
 
 $$
-\mathcal{L} = ||y - x\beta|| + \lambda ||\beta|| = (y - X\beta)^T(y - X\beta) + \lambda \beta^T \beta
+\mathcal{L} = \lvert \lvert y - x\beta \rvert \rvert + \lambda \lvert \lvert \beta \rvert \rvert = (y - X\beta)^T(y - X\beta) + \lambda \beta^T \beta
 $$
 
-其中， $||y - x\beta||$ 是我们的`最小二乘`，而 $\lambda ||\beta||$ 是所谓的 `L2-norm` 。我们对 $\mathcal{L}$ 求取偏微分：
+其中， $ \lvert \lvert y - x\beta \rvert \rvert$ 是我们的`最小二乘`，而 $\lambda \lvert \lvert \beta \rvert \rvert$ 是所谓的 `L2-norm` 。我们对 $\mathcal{L}$ 求取偏微分：
 
 $$
 \frac {\partial \mathcal{L}} {\partial \beta} = 2X^TX\beta - 2X^Ty + 2\lambda \beta = 0
@@ -253,8 +253,11 @@ $$
 这里用一个小 trick ，将 $\beta_k$ 分离出来：
 
 $$
-\frac {\partial f} {\partial \beta_k} & = -2\sum_{i = 1}^n [x_{ik}y_i - (x_{ik} \sum^p_{j \neq k} x_{ij} \beta_j) + x_{ij}^2 \beta_k] + \lambda \\
+\begin{align*}
+\frac {\partial f} {\partial \beta_k} & =
+-2\sum_{i = 1}^n [x_{ik}y_i - (x_{ik} \sum^p_{j \neq k} x_{ij} \beta_j) + x_{ij}^2 \beta_k] + \lambda \\
 & = -2\sum_{i = 1}^n [x_{ik} (y_i - \sum_{j \neq k}^p x_{ij} \beta_j)] + 2\sum_{i = 1}^n x_{ik^2} \beta_k
+\end{align}
 $$
 
 让左边的为 $C_k$ ，右边的为 $D_k$ 。上式变成：
