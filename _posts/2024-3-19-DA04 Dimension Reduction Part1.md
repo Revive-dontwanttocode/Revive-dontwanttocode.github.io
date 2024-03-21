@@ -257,13 +257,13 @@ $$
 \frac {\partial f} {\partial \beta_k} & =
 -2\sum_{i = 1}^n [x_{ik}y_i - (x_{ik} \sum^p_{j \neq k} x_{ij} \beta_j) + x_{ij}^2 \beta_k] + \lambda \\
 & = -2\sum_{i = 1}^n [x_{ik} (y_i - \sum_{j \neq k}^p x_{ij} \beta_j)] + 2\sum_{i = 1}^n x_{ik^2} \beta_k
-\end{align}
+\end{align*}
 $$
 
 让左边的为 $C_k$ ，右边的为 $D_k$ 。上式变成：
 
 $$
-& = -2C_k + 2D_k\beta_k \\
+= -2C_k + 2D_k\beta_k \\
 $$
 
 现在处理偏微分时候我们留下的 ? 项：我们有：
