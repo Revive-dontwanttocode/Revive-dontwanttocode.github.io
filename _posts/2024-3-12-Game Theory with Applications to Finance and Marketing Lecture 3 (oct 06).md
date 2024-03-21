@@ -1,6 +1,6 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      Game Theory with Applications to Finance and Marketing I, Lecture 3 & 4 Notes (Oct. 06 & Oct. 13)                # 标题 
+title:      Game Theory with Applications to Finance and Marketing I, Lecture 3 & 4 Notes (Oct. 06, Oct. 13)                # 标题 
 subtitle:   Game Theory # 副标题
 date:       2024-3-12                # 时间
 author:     czx                        # 作者
