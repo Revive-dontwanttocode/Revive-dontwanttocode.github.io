@@ -8,7 +8,7 @@ toc: true
 math: true
 mermaid: true
 catalog: true
-categories: ['Course Notes'] 						
+categories: ['Course Notes', 'Game Theory ( FIN7035 )'] 						
 tags:								
     - Game Theory
     - Lecture Note

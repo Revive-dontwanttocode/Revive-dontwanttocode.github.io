@@ -8,7 +8,7 @@ toc: true
 math: true
 mermaid: true
 catalog:    true                        # 是否归档
-categories: ['Course Notes']
+categories: ['Course Notes', 'Data Analytics ( IE5054 )']
 comments: true
 tags: # 标签
   - Data Analysis

@@ -8,7 +8,7 @@ toc:        true
 math:       true
 mermaid:    true
 catalog:    true
-categories: ['Course Notes']
+categories: ['Course Notes', 'Machine Learning ( EE5184 )']
 comments:   true
 tags:
   - Machine Learning
