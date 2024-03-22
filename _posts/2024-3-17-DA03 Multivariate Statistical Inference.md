@@ -246,3 +246,277 @@ $$
 ## Distance between Vectors
 
 接下来要介绍的是如何判断两个 vector 之间的距离。这是一个很重要的观念。
+
+### Euclidean Distance
+
+我们最常用的是欧氏距离。计算公式为：
+
+
+
+$$
+\sqrt{(X_1 - X_2)^T(X_1 - X_2)}
+$$
+
+
+但在数据集中，欧氏距离**真的合理吗？**看下面的这个例子。
+
+![image-20240322220441883](https://s2.loli.net/2024/03/22/Z1HsmJT4vF6iLnu.png)
+
+出现了一个很奇怪的现象：
+
+* 按照欧氏距离的定义，向量 $x_{347}$ 相较于中心点（红色点）显然比向量 $x_{608}$ 更加接近。因此，似乎 $x_{347}$ 更接近数据分布的中心。
+* 但如果我们关注数据集的分布。很显然，越靠近边缘，意味着数据点离数据集分布中心越远。显然的是， $x_{347}$ 相对于 $x_{608}$ 更靠近边缘。欧氏距离给出了一个**错误的**结果。
+
+我们需要另一种距离的测定方式，来断定 sample 距离数据集中心到底有多远。
+
+### Mahalanobis Distance
+
+马氏距离通过考虑两个向量之间`协方差`的方式，有效地刻画了在一个数据集中向量距离数据集中心的远近。马氏距离同样也考虑了数据的 distribution 。其计算公式为：
+
+
+$$
+\sqrt{(x_1 - x_2)^TS_{x_1x_2}^{-1}(x_1 - x_2)}
+$$
+
+
+也可以写成矩阵的形式：
+
+
+$$
+\begin{align*}
+\text{Mahalanobis Distance} & =
+\sqrt{(\bar{x} - \mu_x)^TS^{-1}(\bar{x} - \mu_x)} \\
+& = \sqrt{(\bar{x} - \mu_x)^T\Sigma^{-1}(\bar{x} - \mu_x)}
+\end{align*}
+$$
+
+
+其中，
+
+* $\bar{x}$ is the `sample mean` vector.
+* $\mu_x$ is the `real mean` vector.
+* $S^{-1}$ is the `sample covariance matrix`.
+* $\Sigma^{-1}$ is the `real covariance matrix`.
+
+> Equation above tells us how far the sample mean vector to the real mean vector (aka real center).
+{: .prompt-danger }
+
+## Multivariate Normal Distribution
+
+Now let's introduce the Multivariate Normal Distribution.
+
+In `Univariate Normal Distribution`, we have already known,
+
+
+$$
+f(x) = \frac {1} {\sqrt{2\pi\sigma^2}}e^{- \frac {(x - \mu)^2} {2\sigma^2}}
+$$
+
+
+And, in `Multivariate Normal Distribution`, we have:
+
+
+$$
+g(\mathbf{X}_0) = \frac {1} {\sqrt{(2\pi)^p \lvert \Sigma \rvert}} \exp(-\frac {1} {2} (\mathbf{X}_0 - \mathbf{\mu})^T\Sigma^{-1}(\mathbf{X}_0 - \mathbf{\mu}))
+$$
+
+
+where,
+
+* $\Sigma$ is the `covariance matrix`. This is one argument we need to estimate.
+* $\mu$ is the `mean vector`. This is another argument we need to estimate.
+
+>在协方差矩阵中，每两个参数就要求协方差。总共有 $C_p^2$ 个未知变量要估计；在均值向量 $\mu$ 中，有 $p$ 个均值要估计，此外，还要计算 $p$ 个样本方差 所以，总共加起来有 $(2p + C_p^2)$ 个待估计参数。
+{: .prompt-tip }
+
+### Properties
+
+![image-20240322222658199](https://s2.loli.net/2024/03/22/Gwf5APsoV7Ncinx.png)
+
+### Multivariate Normal Estimates
+
+可以利用极大似然法进行参数的估计。
+
+![image-20240322222904424](https://s2.loli.net/2024/03/22/McvITayzjSWKQxV.png)
+
+### Distribution of $\bar{x}$ and $S$
+
+我们已经知道了 $\bar{X} = \sum_{i = 1}^n \frac {1} {n} X_{o, i}$ ，且 $x_{o, i} \sim N_p(\mu, \Sigma)$ 。因此有，
+
+
+$$
+\bar{x} \sim N_p(\mu, \frac {\Sigma} {n})
+$$
+
+
+此外，样本协方差矩阵 $S$ 服从 `Wishart distribution` ，经过转换可以得到`多元卡方分布`。
+
+### Multivariate Hypothesis Testing with $\Sigma$ Known
+
+在假设检验时，我们要检验多个参数。显然不能一个个检验，否则 Type I error 将会飙升。
+
+我们希望同时检验是否有 $\mu_1 = \mu_2 = ... = \mu_p$ 。因此，假设检验为：
+
+
+$$
+H_0 : (\mu_1, ..., \mu_p )^T = (\mu_{01}, ..., \mu_{0p})
+$$
+
+
+采取的检定统计量为：
+
+
+$$
+Z^2 = n(\bar{x} - \mu_0)^T\Sigma^{-1}(\bar{x} - \mu_0)
+$$
+
+
+这个统计量服从 $\chi_p^2$ 分布。
+
+如果 $Z^2 > \chi_{\alpha, p}^2$ ，则拒绝原假设 $H_0$ 。
+
+### Hotelling’s $T^2$-Test with $\Sigma$ Unknown
+
+当然也有 $\Sigma$ 未知的情况。我们要用一个新的检定统计量 $T^2$。
+
+
+$$
+T^2 = n(\bar{x} - \mu_0)^T S^{-1} (\bar{x} - \mu_0) \sim T^2_{p, n - 1}
+$$
+
+
+其中，我们用样本协方差矩阵 $S$ 来替代总体协方差矩阵 $\Sigma$ 。
+
+这个分布与 F-distribution 有关。
+
+
+$$
+T_{p, n - 1}^2 = \frac {p(n - 1)} {n - p} F_{p, n - p}
+$$
+
+
+如果 $T^2 > T^2_{\alpha, p, n - 1}$ ，拒绝原假设 $H_0$ 。
+
+### Test of Covariance Matrix
+
+接下来的问题自然很明确，我们得到了一个协方差矩阵的估计 $\Sigma_0$ 。我们要观察它是否与真正的协方差矩阵有显著差异。我们有两个统计量。
+
+在有大量的 sample 下，我们要使用的统计量是：
+
+![image-20240322224846745](https://s2.loli.net/2024/03/22/YVZXIqxDz8i6CrF.png)
+
+在适中/小样本的情况下，我们使用的统计量是：
+
+![image-20240322224914666](https://s2.loli.net/2024/03/22/iA7M1pxZPledBoK.png)
+
+其中，$\upsilon = n - 1$ ，是 $S$ 的自由度。
+
+拒绝域是：
+
+![image-20240322225057023](https://s2.loli.net/2024/03/22/VHBDImGvcPOWr3q.png)
+
+在多元中，还有很多的 test 。这里不一一给出。
+
+## Multivariate Analysis of Variance (MANOVA)
+
+现在我们面临的一个问题自然是，如何在多元的情况下开展 ANOVA 分析？
+
+### Review of All sorts ANOVA
+
+> 所谓的“方差分析”并不是真正的**分析方差**！而是比较 mean vectors ，从而达到**一个检定，检验多个**的效果。
+{: .prompt-danger }
+
+> We want to know how different levels will impart our response.
+{: .prompt-info }
+
+在 ANOVA 时，我们通常认为 response $y_{ij}$ 被几个因素所影响：
+
+- mean
+- levels
+- some residual $\epsilon_{ij}$, this is which we can not control
+
+> 分析的目标就是，鉴定是否是 `levels` 影响了我们的 response ？
+{: .prompt-info }
+
+#### One-way ANOVA
+
+我们熟悉的是所谓的 one-way ANOVA 。我们做 $n$ 次重复实验，总共有 $a$ 个 level 。检验表达式为：
+
+
+
+$$
+y_{ij} = \mu + \tau_i +\epsilon_{ij}, \text {where } i = 1, ..., a; j = i, ..., n
+$$
+
+
+#### Multi-way ANOVA
+
+在 Multi-way ANOVA 中，我们想要检验是否有多个因素影响了我们的 response 。以两个因素影响为例：
+
+
+$$
+y_{ijk} = \mu + \tau_i + \gamma_j + \epsilon_{ijk}
+$$
+
+
+其中， $i = 1, ..., a$ ；$j = 1, ..., b$ ； $k = 1, ..., n$ 。这意味着第一个 factor 有 $a$ 种 level ，第二个 factor 有 $b$ 种 level ，总共观测了 $n$ 笔资料。
+
+#### MANOVA
+
+在 MANOVA 中，我们的 level 不是一个数值了，而是一个 vector 。
+
+
+$$
+y_{ijk} = \mu + \tau_i +\epsilon_{ijk}
+$$
+其中， $i = 1, ..., a$ ； $j = 1, ..., n$ ； $k = 1, ..., q$ 。意味着我们有 $q$ 个 random variable ，$a$ 种 level ， $n$ 笔观测资料。
+
+> 当然还是不能拆分成 multiple one-way ANOVA 。会有 Type I error inflation 。
+{: .prompt-danger }
+
+### Compare to Regression Analysis
+
+1. $\tau$ 代表的是 level ，有固定值如 $1, 2, 3, 4$ ；而回归分析中 $x$ 是一个随机变量，有多个不同的值。
+2. 在 ANOVA 中，我们假设 response （也就是 y ）被 level 影响。**我们想要知道 level 能影响多少。**
+
+## Analysis Of Variance (ANOVA, uni-variate case)
+
+> *What if I got categorical predictors?*
+
+我们通过一个例子来了解 ANOVA 的流程以及意义。
+
+![image-20240322231751676](https://s2.loli.net/2024/03/22/kKCzNtPdp43u57f.png)
+
+* 我们要研究的 response 是 `etch rates` ，我们的 level 是 `RF` 。有四个可能值 $\{160, 180, 200, 220\}$ 。
+* 在每个 level 中，我们都做 5 次重复实验。
+* 其他的影响因素都是定值。
+
+怎么开始实验？ $\longrightarrow$ 很显然，我们要做所谓的 `randomize` 。
+
+### Start of Experiments
+
+为了防止其他的未知影响，我们要随机进行实验。只要控制好 level 和每个 level 的重复次数即可。
+
+![image-20240322232045702](https://s2.loli.net/2024/03/22/8oqzwaypj4dPu2v.png)
+
+随后，可以分别对每个 level 的观测值加总，取均值得到我们想要的 `etch rates` 。
+
+![image-20240322232123596](https://s2.loli.net/2024/03/22/IyvqZY2gj9Qa87f.png)
+
+### Data Visulization
+
+![image-20240322232154920](https://s2.loli.net/2024/03/22/y3qEQlcFATwSJOh.png)
+
+最直观的方式是通过箱线图来展示不同 level 的相关影响。我们可以看到，似乎随着 level 的增加， rate 呈现一个上升趋势。且每一个箱体之间都能很好地分别。
+
+但这只是最直观的感觉。我们真的能说：
+
+* RF power setting affects the etch rate?
+* higher RF results in increased etch rate?
+
+如果我们要做 t-test ，这是一件非常痛苦的事情。比如，我们要证明 $\mu_{180} > \mu_{160}$，也要证明 $\mu_{200} > \mu_{160}$ 。总共要做 $C_4^2$ 次 t 检验。这不但很繁琐，而且会导致 Type I error inflating 。
+
+这个时候就要请出我们的 ANOVA 了。用来一口气检查 RF power factor 是否真的影响我们的 etch rate 。
+
+### Fixed or Random Effects Model
+
