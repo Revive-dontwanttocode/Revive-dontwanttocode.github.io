@@ -352,6 +352,52 @@ $\longrightarrow$ So how to assign $\lambda$ ? This is just what you want. :-)
 
 不同的是，Lasso 试图去 kill 掉某个回归变量，而 RR 试图找到一个平衡的方法，去对出现 collinearity 的变量进行一些均等的权重分布，使其都尽可能地小。
 
+### Elastic Net
+
+有的时候，我们既希望能 kill 掉一些变量，又能很好地控制一些变量趋近于0。这时候自然有一个问题，如何 Combine Lasso 和 RR ？这就是 `Elastic Net` 的来源。
+
+Elastic Net 加入了一个所谓的 `Smoothing Factor` $\alpha$ 。它将控制*利用* Lasso 和 Ridge Regression 的比例。准确的说， $\alpha$ 衡量了在 L1-Norm 和 L2-Norm 的 `penalty` 。
+
+![image-20240323173524535](https://s2.loli.net/2024/03/23/pBzINxCnDbrfuQM.png)
+
+* $\alpha = 1 \Longrightarrow$ `Lasso Regression`
+* $\alpha = 0 \Longrightarrow$ `Ridge Regression`
+* $\alpha \in (0, 1) \Longrightarrow$ `Elastic Net`
+
+### How Do We Fit the Penalized Regression?
+
+#### Step #1: Choose and Fix $\lambda$
+
+$\lambda$ 确定了限制的范围。一个很好的做法是用最小二乘估计来求初始的 $\lambda$ 。
+
+#### Step #2: Choose $\alpha$
+
+第二步是确定使用什么样的 $\alpha$ ，从而决定是用 Lasso，RR 还是 Elastic Net 。
+
+* 使用 Lasso - 需要利用诸如梯度下降的方法来得到 $\beta_i$ 。在梯度下降的时候还要注意 $\beta_i$ 的符号问题。
+* 使用 Ridge Regression - 有 closed form solution 。只需要解 $X^TX$ 即可。
+* 使用 Elastic Net - 需要利用类似 Lasso 的方法来解决。
+
+![image-20240323180159645](https://s2.loli.net/2024/03/23/mGsop7BXrjdcavE.png)
+
+左边是 Lasso 的参数变化图。可以发现 Lasso 的参数归零非常快。右边是 RR 的参数变化图，可以发现即使 $\lambda$ 很大，参数仍然不会完全归零。
+
+### An Extra Question: Should we Normalize the Data?
+
+> We still need to normalize the data.
+{: .prompt-danger }
+
+我们前面已经提过说，Lasso 和 RR 这一系列的回归方法，都只关注 coefficient 的 value 本身。如果 data 没有 normalize ，则一定会由于量纲不一致，产生不同数量级的 $\beta_i$ 。可能有的 $\beta_i$ 因为数量级的缘故非常小但是很重要；有的 $\beta_i$ 因为数量级的缘故非常大。而 Lasso 会 kill 掉这些 coefficient ，RR 也会使这些 coefficient 缩小。因此，必然要对数据做标准化。
+
+**Be careful at the very beginning!**
+
+> What's more:
+>
+> Lasso: Powerful to **select** variables.
+>
+> RR: Avoid collinearity, weight distributed balancedly.
+{: .prompt-danger }
+
 ## Reference
 
 本文中的所有图片，Slides均来源于國立台灣大學工業工程學研究所藍俊宏副教授所開設的資料分析方法課程中之 `DA04 Dimension Reduction.pdf`。特此感謝藍俊宏老師在我學習歷程上的幫助！
