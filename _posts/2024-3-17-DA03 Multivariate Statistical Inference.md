@@ -519,4 +519,165 @@ $$
 这个时候就要请出我们的 ANOVA 了。用来一口气检查 RF power factor 是否真的影响我们的 etch rate 。
 
 ### Fixed or Random Effects Model
+首先明确我们检测的到底是什么：
 
+* 我们检测的目标是判断 RF level 会有什么样的影响。
+* response 是 etch rate ，effect 是 RF level 。
+
+做 ANOVA 分析，我们可以构建两种 model 。一种是所谓的 `means model` ，将 level 合并到均值来检测。一种是 `effects model` ，单独将 level 拿出来检测。
+
+
+$$
+y_{ij} = \mu_i + \epsilon_{ij}
+$$
+
+
+其中， $i$ 是所谓的 `treatement` ，即多少个 level 。而 $j$ 是 replicate ，即实验重复多少次。
+
+这里的 $\mu_i$ 是均值 $\mu$ 和 effect $\tau_i$ 之和。
+
+
+
+在 effects model 中，我们的检测表达式是：
+
+
+$$
+y_{ij} = \mu + \tau_{i} + \epsilon_{ij}
+$$
+
+
+其中， $i$ 是所谓的 `treatement` ，即多少个 level 。而 $j$ 是 replicate ，即实验重复多少次。不过在这个形式中，我们只关心 $\tau_i$ 。
+
+此外，在检定过程中，我们的假设是：
+
+
+$$
+y_{ij} \sim N(\mu + \tau_i, \sigma^2)
+$$
+
+
+不过这个假设有的时候可以忽略。毕竟很难有服从正态分布的情况发生。
+
+#### Analysis of the Fixed Effects Model
+
+现在我们要分析 fixed effects model 。我们的假设是：
+
+
+$$
+H_0 : \mu_1 = \mu_2 = \dots = \mu_a \\
+H_1: \mu_i \neq \mu_j \text{ for at least one pair } (i, j)
+$$
+
+
+这个条件的意思是，所有的 treatment 中资料的均值都一样。这意味着， $\tau_i$ 并没有影响均值，也就印证了其没有影响我们的 response $y$ 的值。
+
+如果我们采用的是 effects model ，我们有与之等价的假设：
+
+
+$$
+H_0 : \tau_1 = \tau_2 = \dots = \tau_a = 0 \\
+H_1 : \tau_i \neq 0 \text{ for at least one } i
+$$
+
+
+这个假设的意思是，所有 $a$ 个 effects 是一样的吗？如果是一样，则 treatment 对 response 几乎没有影响。
+
+### The Decomposition of the Total Sum of Squares
+
+现在要进行经典的任务：对 Total Sum of Square 进行**分解**。首先我们明确两组记号：
+
+
+$$
+\bar{y}_{..} = \sum_j \sum_i y_{ij} \times \frac {1} {a_n}
+$$
+
+
+上式表示的是所谓的 `overall mean` ，即所有抽取的资料的均值。
+
+
+$$
+\bar{y}_{i.} = \sum_j y_{ij} \frac {1} {n}
+$$
+
+
+上式表达的意思是，给一个固定的 $i$ （即将 treatment 固定），求取平均值。这个求的是某个 treatment 下的样本平均值。( Sample Average of Certain Level )
+
+下面我们来对 Total Sum of Square 进行分解。
+
+
+$$
+\begin{align*}
+SS_T & = \sum^a_{i = 1} \sum^n_{j = 1} (y_{ij} - \bar{y}_{..})^2 \\
+& = n\sum^a_{i = 1} (\bar{y}_{i.} - \bar{y}_{..}) ^ 2 + \sum^a_{i = 1} \sum^n_{j = 1} (y_{ij} - \bar{y}_{i.})^2 \\
+& = SS_{\text{treatment}} + SS_{E}
+\end{align*}
+$$
+
+
+我们可以将 Total Sum of Square 分成两部分。
+
+* 第一部分是每一个 treatment 组的均值减去所有样本加总的SS，称为`组间均值 SS` （ between level/group ）。
+* 第二部分是组内的 observation 和 certain level mean 相减并加总的SS，称为`组内差值 SS` （within level/group SS ）。
+
+在分解完毕后，我们可以得到一张 ANOVA Table ：
+
+![image-20240323115410755](https://s2.loli.net/2024/03/23/mXGukyO925da1f8.png)
+
+* 在整体中，方差来源于三部分：
+  * `Between treatment` ：不同 level 导致的方差。这就是上面提到的 SS-treatment 。它刻画了不同 level 之间是否有不同。这个越大，说明每个 level 确实会导致 response 之间的不同。 （这也是我们想要利用ANOVA证明的结果，即 treatment 真的会对 response 有影响）
+  * `Error (within treatment)` ：这是每个 treatment 内的不同。是所谓的组内差值（差异）。刻画了每个 treatment 组内数据的差异。如果 within is small ，则可以证明在同一个 level 中的数据点 point 非常的 similar
+* 我们希望达到的结果是：组内的数据点都类似，组间的数据都有很显著的差异。就像我们之前的箱线图一样。
+
+我们使用的检定统计量是 F 。在这里，$F = SS_{\text{between}} / SS_E $ 。如果 $F \uparrow$ ，则我们有充足的理由拒绝原假设 $H_0$ ，说明 level 对 response 的影响是显著的。这也是组间差异 SS-between 增大 ，组内差异 SS-Error 减小而的来的结果。
+
+![image-20240323120318912](https://s2.loli.net/2024/03/23/we2ZLW1d3EuASKq.png)
+
+## When the effects are in vectors : Multivariate Analysis Of Variance (MANOVA)
+
+如果我们发现，所谓的 effect $\tau$ 现在不是一个单纯的 level 值了，而是一个 vector 。我们又怎么进行方差分析呢？这就是要使用 MANOVA 的时候。
+
+![image-20240323120524283](https://s2.loli.net/2024/03/23/SvOsTKnLIZrae7F.png)
+
+### The Hypothesis of MANOVA
+
+我们的原假设是：
+
+![image-20240323120622733](https://s2.loli.net/2024/03/23/p2PoTDI8hLtGWVB.png)
+
+这里的 $\tau$ 都是 vector ，而非之前的标量。我们希望检测，这些向量是相同的。之前我们的 $SS_{\text{between}}$ 和 $SS_E$ 也不再是一个标量，而变成矩阵。
+
+![image-20240323120739607](https://s2.loli.net/2024/03/23/KWd9PMtTahrXjsA.png)
+
+矩阵 $\mathbf{B}$ 代表着 `SS of between level` ，而矩阵 $\mathbf{E}$ 代表着 `SS within level` 。
+
+![image-20240323121004316](https://s2.loli.net/2024/03/23/2dEBhnjJs6uSeIF.png)
+
+### Testing Statistics of MANOVA
+
+在 MANOVA 中，检定统计量也发生了变化，有多种检定统计量可以使用。
+
+![image-20240323121057423](https://s2.loli.net/2024/03/23/pDqHxkXN7rFOyum.png)
+
+![image-20240323121524354](https://s2.loli.net/2024/03/23/9UmxAOWX6SluThY.png)
+
+### Example: Nursing Home Costs versus Ownership
+
+在这个例子中，我们有3个 level 。其中每个 level 由4个 part 组成。这是一个典型的 MANOVA 分析的问题。
+
+![image-20240323121615061](https://s2.loli.net/2024/03/23/IyOMJDBrZ5TQdaC.png)
+
+可以直接进行检定：
+
+![image-20240323121635218](https://s2.loli.net/2024/03/23/7CQg1WYAmTDtPqx.png)
+
+假设为 $\tau_1 = \tau_2 = \tau_3$
+
+![image-20240323121704886](https://s2.loli.net/2024/03/23/mYUrnPKxgTdGb6N.png)
+
+![image-20240323121711349](https://s2.loli.net/2024/03/23/7uAihRBn3mFaW1o.png)
+
+以上，就是 MANOVA 的相关内容。
+
+## Reference
+
+本文中的所有图片，Slides均来源于國立台灣大學工業工程學研究所藍俊宏副教授所開設的資料分析方法課程中之 `DA03 Multivariate Statistical Inference.pdf`。特此感謝藍俊宏老師在我學習歷程上的幫助！
