@@ -142,7 +142,7 @@ To be finished.
 
 And, for more understanding and techniques for Computer Science. I also register several Computer Science Course.
 
-### 機器學習 ( EE5184 )
+### 深度學習之應用 ( Applied Deep Learning)
 
 #### Information
 
@@ -185,35 +185,15 @@ To be finished.
 
 #### Information
 
-> * Course Name: 深度學習之應用 ( Applied Deep Learning)
-> * Lecturer: 陳縕儂
-> * Semester: 111-1
-> * Course Website Link: [Applied Deep Learning 2022](https://www.csie.ntu.edu.tw/~miulab/f111-adl/)
-> * YouTube Video: [**2022 Fall 台大資訊 深度學習之應用 NTU CSIE ADL**](https://www.youtube.com/playlist?list=PLOAQYZPRn2V5yumEV1Wa4JvRiDluf83vn)
+> * Course Name: 資訊檢索與文字探勘導論
+* Lecturer: 陳建錦
+* Semester: 112-1
+* NTU Cool Link: [資訊檢索與文字探勘導論 ( IM 5030 )](https://cool.ntu.edu.tw/courses/28999)
 {: .prompt-info }
 
 #### Syllabus
 
-| Date       | Description                                                  | Course Recordings                                            | Note                                                         |
-| :--------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| 2022/09/08 | [Course Logistics](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220908_Course.pdf) [Introduction](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220908_Introduction.pdf) | [0](https://youtu.be/rrw0IIEVEUo) [1.1](https://youtu.be/ONWbL9rr9Sc) [1.2](https://youtu.be/Hgtf0912_Ew) [1.3](https://youtu.be/lxa3-NpXLxU) | [PyTorch](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/A0_PyTorch.pdf) |
-| 2022/09/15 | [Neural Network Basics](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220915_NNBasics.pdf) [Backpropagation](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220915_Backprop.pdf) | [2.1](https://youtu.be/Q0l1jUy-0mA) [2.2](https://youtu.be/A83DKnpB7DM) [2.3](https://youtu.be/MbgS29j2ZsY) [2.4](https://youtu.be/Y4c8a4epz_I) [2.5](https://youtu.be/oYnJ3pmRhjk) |                                                              |
-| 2022/09/22 | [Word Representation](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220922_WordRep.pdf) [Recurrent Neural Network](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220922_RNN.pdf) | [3.1](https://youtu.be/fJBbAK0Qy54) [3.2](https://youtu.be/c0N8_x-rhmE) [3.3](https://youtu.be/mRRzGVqH5lU) [3.4](https://youtu.be/9Ho2cstjMnU) |                                                              |
-| 2022/09/29 | [Gating Mechanism](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220929_Gating.pdf) [Word Embeddings](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/220929_WordEmbeddings.pdf) | [4](https://youtu.be/LosffMy3BqM) [5.1](https://youtu.be/K2oYKdK--9U) [5.2](https://youtu.be/j9YNHnCRkig) [5.3](https://youtu.be/4Vrd15ZwxH4) [5.4](https://youtu.be/cKor9hMjFLc) [5.5](https://youtu.be/BbTSvFwuCbo) [5.6](https://youtu.be/MnFDW20J17E) |                                                              |
-| 2022/10/06 | [ELMo](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221006_ELMo.pdf) [Attention Mechanism](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221006_Attention.pdf) | [6.1](https://youtu.be/ZJD_i3g_VkA) [6.2](https://youtu.be/jISltja92vk) [7.1](https://youtu.be/YJYcMLq1_f4) [7.2](https://youtu.be/nfxai5sxm3U) |                                                              |
-| 2022/10/13 | [Transformer](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221013_Transformer.pdf) [Subword Tokenization](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221013_Subword.pdf) [BERT](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221013_BERT.pdf) | [8.1](https://youtu.be/FbB6U_UBf8A) [8.2](https://youtu.be/of8ALg4J2oM) [8.3](https://youtu.be/KDuTjhRPjdI) [9](https://youtu.be/8dp9XGQx4vg) [10.1](https://youtu.be/XS44fSQP0-E) |                                                              |
-| 2022/10/20 | [More BERT](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221020_MoreBERT.pdf) | [11.1](https://youtu.be/mmTy9HmDPL0) [11.2](https://youtu.be/3KyMRY89uUA) [11.3](https://youtu.be/19oog6oeuwI) [11.4](https://youtu.be/FRf9G6cbuC4) |                                                              |
-| 2022/10/27 | Midterm Break                                                |                                                              |                                                              |
-| 彈性補充   | [Reinforcement Learning](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221027_DRL.pdf) [Value-Based RL](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221027_ValueRL.pdf) | [11.1](https://youtu.be/pObXXUlDq94) [11.2](https://youtu.be/L08xeyNtNUk) [11.3](https://youtu.be/6a6Ljx0Lm2s) [11.4](https://youtu.be/QyLiGmUJGBM) [11.5](https://youtu.be/Ws8RIfC4AWA) [11.6](https://youtu.be/XKoYxbDJqk8) |                                                              |
-| 彈性補充   | [Policy Gradient & Actor-Critic](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221103_PolicyRL.pdf) | [11.7](https://youtu.be/Qu2jdOLuR0U) [11.8](https://youtu.be/ApHaSpeQK1Q) |                                                              |
-| 2022/11/10 | [Natural Language Generation](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221110_NLG.pdf) | [13.1](https://youtu.be/xOWJRJ8Cstk) [13.2](https://youtu.be/-fPRDyT8m0k) [13.3](https://youtu.be/UHx81apLn6A) [13.4](https://youtu.be/4p61x6-mwEY) |                                                              |
-| 2022/11/17 | [Model Pre-Training](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221117_Pretraining.pdf) | [14.1](https://youtu.be/ZQ9b-1ZAT8M) [14.2](https://youtu.be/79djVKmBKF4) [14.3](https://youtu.be/fYzUbfgCQ8g) [14.4](https://youtu.be/ck4up78aV8s) [14.5](https://youtu.be/F1aq5pTL780) [14.6](https://youtu.be/_aL8Wv4SCAc) |                                                              |
-| 2022/11/24 | [Prompt-Based Learning](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221124_PromptLearning.pdf) | [15.1](https://youtu.be/BCAtK3Cuw4E) [15.2](https://youtu.be/KgGQPmi5a9E) [15.3](https://youtu.be/gOUdm82WUqw) [15.4](https://youtu.be/Q1KVJNwAMJk) [15.5](https://youtu.be/mol6U__9520) |                                                              |
-| 2022/12/01 | [Beyond Supervised Learning](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221201_BeyondSL.pdf) | [16.1](https://youtu.be/w9ad4vd8l-k) [16.2](https://youtu.be/CHurrTvf8yM) [16.3](https://youtu.be/cjjjhHIDjKo) [16.4](https://youtu.be/TlwL8z_9V6I) [16.5](https://youtu.be/BN2TlVoyXtY) |                                                              |
-| 2022/12/08 | [Issues in Pre-Trained Models](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221208_Issues.pdf) | [17.1](https://youtu.be/SOAbgV07IH8) [17.2](https://youtu.be/ORHv8yKAV2Q) [17.3](https://youtu.be/TnGPmlONfI8) [17.4](https://youtu.be/e0oEpr9YkSc) |                                                              |
-| 2022/12/15 | Break                                                        |                                                              |                                                              |
-| 2022/12/22 | Final Break                                                  |                                                              |                                                              |
-| 2022/12/29 | [Multimodality](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221229_Multimodality.pdf) [Sharing](https://www.csie.ntu.edu.tw/~miulab/f111-adl/doc/221229_Sharing.pdf) | [18.1](https://youtu.be/AKwl3t811tA) [18.2](https://youtu.be/Figvv2q3Gwk) [Sharing](https://youtu.be/N-ejYzQRxKM) |                                                              |
+![image-20240319170206538](https://s2.loli.net/2024/03/19/rIAD3JEUibNcBnM.png)
 
 #### Timeline
 
