@@ -551,14 +551,12 @@ $$
 
 
 $$
-\begin{matrix}
-% \begin{align}
-& y_1 = \beta_0 + \beta_1x_1 + \epsilon_1 \\
-& y_2 = \beta_0 + \beta_1x_2 + \epsilon_2 \\
-& \vdots \\
-& y_n = \beta_0 + \beta_1x_n + \epsilon_n
-% \end{align}
-\end{matrix}
+\begin{align*}
+y_1 & = \beta_0 + \beta_1x_1 + \epsilon_1 \\
+y_2 & = \beta_0 + \beta_1x_2 + \epsilon_2 \\
+\vdots & \\
+y_n & = \beta_0 + \beta_1x_n + \epsilon_n
+\end{align*}
 $$
 
 
@@ -634,7 +632,7 @@ $$
 
 另外，我们还可以通过之前的`linear assumptions`得出一些性质。
 
-* $E(\epsilon_i) = 0 \Rightarrow \sum^{n}_{i = 1}(e_i) = 0 \Rightarrow \sum^{n}_{i = 1}(y_i - \hat{y_i}) = 0$，从而有$\sum^n_{i = 1} \hat{y_i} = \sum^n_{i = 1} {y_i}$。
+* $E(\epsilon_i) = 0  \Rightarrow \sum^{n}_{i = 1}(e_i) = 0 $, $ \Rightarrow \sum^{n}_{i = 1}(y_i - \hat{y_i}) = 0$，从而有 $\sum^n_{i = 1} \hat{y_i} = \sum^n_{i = 1} {y_i}$ 。
 * 数据的`centroid  `总是在regression line上。
 * 联系之前的回归几何意义，我们可以得出：
   * $\sum^n_{i = 1} x_ie_i = 0 \iff X^Te = 0$。由于$\vec{e}$总是与$X$的Column Space垂直，可以得到。
@@ -798,11 +796,11 @@ $$
 
 其中，$x_0$是用来拟合模型的原始数据集中$x$取值范围的任何一个值。
 
-对$\hat{y} | x_0$求条件方差：
+对$\hat{y} \lvert x_0$求条件方差：
 
 
 $$
-V(\hat{y} | x_0) = V(\hat{\beta_0} + \hat{\beta_1}x_0) = V(\bar{y} + \hat{\beta_1}(x_0 - \bar{x}))
+V(\hat{y} \lvert x_0) = V(\hat{\beta_0} + \hat{\beta_1}x_0) = V(\bar{y} + \hat{\beta_1}(x_0 - \bar{x}))
 $$
 
 
@@ -812,9 +810,10 @@ $$
 $$
 V(\hat{y} | x_0) = \frac {\sigma^2} {n} + \frac {\sigma^2 (x_0 - \bar{x})^2} {S_{xx}} = \sigma^2[\frac {1} {n} + \frac {(x_0 - \bar{x})^2} {S_{xx}}]
 $$
+
 这也说明了方差增加的原因。（$x_0$距离$\bar{x}$（即数据集$x$的中心）远）
 
-我们进而可以求出条件方差$E(\hat{y}|x_0)$的机率分布：
+我们进而可以求出条件方差$E(\hat{y} \lvert x_0)$的机率分布：
 
 ![image-20240315193332931](https://s2.loli.net/2024/03/15/iegCtVf46aQvSWx.png)
 
