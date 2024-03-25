@@ -90,7 +90,60 @@ Just follow my personal interest. I shall always take several finance & economic
 
 #### Timeline
 
-To be continue.
+---
+
+24 Mar. to 30 Mar.
+
+- [ ]  **Rubinstein Bargaining Game and War of Attrition**
+  - [ ] ngt2021nov10part3
+  - [ ] ngt2021nov17part1
+- [ ] **Infinitely Repeated Games**
+  - [ ] ngt2021nov17part2
+  - [ ] ngt2021nov17part3
+  - [ ] ngt2021nov17part4a
+- [ ] **Finitely Repeated Games**
+  - [ ] ngt2021nov17part4b
+
+---
+
+31 Mar. to 6 Apr.
+
+- [ ]  **Static Games with Incomplete Information and BE**
+  - [ ] ngt2021nov24part1
+- [ ] **Signalling Games, PBE, and Cho-Kreps Intuitive Criterion**
+  - [ ] ngt2021nov24part2
+- [ ] **Applications to Finance: Jensen-Meckling Theory, Bank Run, Aghion-Bolton Model, Hart-Moore Model**
+  - [ ] ngt2021dec08part1
+  - [ ] ngt2021dec08part2a
+  - [ ] ngt2021dec08part2b
+
+---
+
+7 Apr. to 13 Apr.
+
+- [ ] **Lecture 4: Spence Signaling Game**
+  - [ ] ngt2021dec08part3a
+  - [ ] ngt2021dec08part3b
+- [ ]  **Lecture 4: Screening Games: Monopolistic Nonlinear Pricing and Competitive Screening**
+  - [ ] ngt2021dec15part1a
+  - [ ] ngt2021dec15part1b
+  - [ ] ngt2021dec15part2
+- [ ]  **Lecture 4: Reputation Games (The Chain-store Paradox)**
+  - [ ] ngt2021dec22part1
+
+---
+
+14 Apr. to 20 Apr.
+
+- [ ] **Lecture 5: The Costly State Verification (CSV) Debt-Financing Model**
+  - [ ] ngt2021dec22part2
+  - [ ] ngt2021dec22part3
+- [ ]  **Lecture 4: Sequential Equilibrium**
+  - [ ] ngt2021dec29part1
+- [ ] **Lecture 4: Iterated Intuitive Equilibrium, Grossman-Perry Equilibrium, and Divine Equilibrium**
+  - [ ] ngt2021dec29part2
+
+---
 
 ### 財務計量 ( Financial Econometrics,  Fin 3026 )
 
