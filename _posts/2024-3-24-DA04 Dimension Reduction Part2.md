@@ -33,7 +33,7 @@ We have a data set $X_{n \times p}$ , where $p \gg n$ . As we do not have *enoug
 
 ### Application: Dimension Reduction
 
-* if $\#$ of variables $\gg$ $\#$ of observations, we can use PCA to reduce the dimension. In order to get *enough* data.
+* if $ \# $ of variables $\gg$ $ \# $ of observations, we can use PCA to reduce the dimension. In order to get *enough* data.
 * or, we may encounter that some variables are highly correlated ( collinearity ). This means regression will not work. PCA can help us deal with it.
 
 ## Example: Evaluate students
