@@ -94,15 +94,15 @@ Just follow my personal interest. I shall always take several finance & economic
 
 24 Mar. to 30 Mar.
 
-- [ ]  **Rubinstein Bargaining Game and War of Attrition**
-  - [ ] ngt2021nov10part3
-  - [ ] ngt2021nov17part1
-- [ ] **Infinitely Repeated Games**
-  - [ ] ngt2021nov17part2
-  - [ ] ngt2021nov17part3
-  - [ ] ngt2021nov17part4a
-- [ ] **Finitely Repeated Games**
-  - [ ] ngt2021nov17part4b
+- [x ]  **Rubinstein Bargaining Game and War of Attrition**
+  - [x ] ngt2021nov10part3
+  - [x ] ngt2021nov17part1
+- [x ] **Infinitely Repeated Games**
+  - [x ] ngt2021nov17part2
+  - [x ] ngt2021nov17part3
+  - [x ] ngt2021nov17part4a
+- [x ] **Finitely Repeated Games**
+  - [x ] ngt2021nov17part4b
 
 ---
 
