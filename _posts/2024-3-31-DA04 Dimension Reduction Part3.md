@@ -8,7 +8,7 @@ toc:        true
 math:       true
 mermaid:    true
 catalog:    true
-categories: ['Course Notes', 'Data Analytics ( IE5054 ) HW']
+categories: ['Course Notes', 'Data Analytics ( IE5054 )']
 comments:   true
 tags:
   - Data Analysis
