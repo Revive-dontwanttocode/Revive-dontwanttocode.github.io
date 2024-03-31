@@ -87,7 +87,7 @@ So, we have:
 $$
 X_{n \times p} = F_{n \times p} A_{p \times p}
 $$
-We also need to mind that $F$ is **not unique**. Given any orthogonal $p \times p$ matrix $R$, we can always let $FA$ become $FR^TRA$, then combine $FR^T$ to new $F^*$, and $RA$ to new $A^*$.
+We also need to mind that $F$ is **not unique**. Given any orthogonal $p \times p$ matrix $R$, we can always let $FA$ become $FR^TRA$, then combine $FR^T$ to new $F^\ast$, and $RA$ to new $A^\ast$.
 
 How about unit variance? $cov(F^*) = R^T cov(F) R = I$ , ( why?[^1] ) still have **unit variance**.
 
@@ -214,7 +214,7 @@ $$
 \begin{eqnarray}
 X^TX &=& (FA + E)^T (FA + E)  \nonumber    \\
 ~ &=& (A^TF^T + E^T)(FA + E) \nonumber    \\
-~ &=& (A^TF^TFA + A^TF^TE + E^TFA + E^TE)
+~ &=& (A^TF^TFA + A^TF^TE + E^TFA + E^TE) \nonumber
 \end{eqnarray}
 $$
 
@@ -227,8 +227,8 @@ $$
 \begin{eqnarray}
 E[X^TX] &=& cov(X)  \nonumber    \\
 ~ &=& A^TE[F^TF]A + A^TE[F^TE] + E[E^TF] + E[E^TE] \nonumber    \\
-~ &=& A^TA + 0 + 0 + \psi \\
-~ &=& A^TA + \psi
+~ &=& A^TA + 0 + 0 + \psi \nonumber \\
+~ &=& A^TA + \psi \nonumber
 \end{eqnarray}
 $$
 
