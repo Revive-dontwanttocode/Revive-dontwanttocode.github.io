@@ -108,26 +108,26 @@ Just follow my personal interest. I shall always take several finance & economic
 
 31 Mar. to 6 Apr.
 
-- [ ]  **Static Games with Incomplete Information and BE**
-  - [ ] ngt2021nov24part1
-- [ ] **Signalling Games, PBE, and Cho-Kreps Intuitive Criterion**
-  - [ ] ngt2021nov24part2
-- [ ] **Applications to Finance: Jensen-Meckling Theory, Bank Run, Aghion-Bolton Model, Hart-Moore Model**
-  - [ ] ngt2021dec08part1
-  - [ ] ngt2021dec08part2a
-  - [ ] ngt2021dec08part2b
+- [x]  **Static Games with Incomplete Information and BE**
+  - [x] ngt2021nov24part1
+- [x] **Signalling Games, PBE, and Cho-Kreps Intuitive Criterion**
+  - [x] ngt2021nov24part2
+- [x] **Applications to Finance: Jensen-Meckling Theory, Bank Run, Aghion-Bolton Model, Hart-Moore Model**
+  - [x] ngt2021dec08part1
+  - [x] ngt2021dec08part2a
+  - [x] ngt2021dec08part2b
 
 ---
 
 7 Apr. to 13 Apr.
 
-- [ ] **Lecture 4: Spence Signaling Game**
-  - [ ] ngt2021dec08part3a
-  - [ ] ngt2021dec08part3b
-- [ ]  **Lecture 4: Screening Games: Monopolistic Nonlinear Pricing and Competitive Screening**
-  - [ ] ngt2021dec15part1a
-  - [ ] ngt2021dec15part1b
-  - [ ] ngt2021dec15part2
+- [x] **Lecture 4: Spence Signaling Game**
+  - [x] ngt2021dec08part3a
+  - [x] ngt2021dec08part3b
+- [x]  **Lecture 4: Screening Games: Monopolistic Nonlinear Pricing and Competitive Screening**
+  - [x] ngt2021dec15part1a
+  - [x] ngt2021dec15part1b
+  - [x] ngt2021dec15part2
 - [ ]  **Lecture 4: Reputation Games (The Chain-store Paradox)**
   - [ ] ngt2021dec22part1
 
