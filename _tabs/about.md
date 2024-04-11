@@ -6,6 +6,16 @@ order: 4
 
 # <center> Chishsi Chen
 
+> 又見新花發故枝，
+> 青梅如豆柳如絲。
+> 而今何事最相宜？
+> 
+> 往事只成清夜夢，
+> 落花都上燕巢泥。
+> 勸君惜取少年時。
+{: .prompt-info }
+
+
 ## Education 
 
 ### Graduate
