@@ -183,3 +183,142 @@ $$
 ## Information Loss in Dimension Reduction
 
 ![image-20240415230351137](https://s2.loli.net/2024/04/15/E3SsGVwxlUO8h7N.png)
+
+我们将原数据 $x, y$ 分别投影到令其方差最大的 $w_x, w_y$ 方向上，试图解释它们。但这样做总会舍弃掉投影的垂直部分，从而产生 information loss 。这样做的后果是，我们无法分析 residual 中的信息，也无法从 residual 中还原出有用的信息。此外，我们也无从得知，$x$ 是怎么转换生成对应的数据 $y$ 的，这意味着我们无法进行 prediction 。
+
+## Consider PCA, CCA, and Mapping Altogether
+
+能不能将这三个部分结合起来，使得我们有机会将投影后的数据转换回投影前的数据呢？这也就是 PLSR 方法的重要设想。
+
+> In general, PLSR want to have chance to come back to original space to build the model.
+>
+> 简单来说，LDA将分类的标签作为降维的依据，而PLS将回归的数值作为降维的依据。
+{: .prompt-info }
+
+步骤为：
+
+1. Normalize $X$ and $Y$ . 要求 `centered` ( 也就是均值为0 ) 与 divided by standard deviations ( 也就是标准差为 1 ) 。
+2. Find the linear combinations $p_1$ and $q_1$ , such that $u_1 = Xp_1$ and $v_1 = Yq_1$ . 这一步类似于 PCA ，也是找到 loadings 。
+3. Maximize $var[u_1]$ and $var[v_1]$. 在 CCA 中，我们需要 univariance 。而在现在，我们要最大化 variance ，以期为我们带来最多的 information 。
+4. Maximize $corr[u_1, v_1]$ 。
+5. 结合3，4可以发现，其实就是 Maximize $cov[u_1, v_1]$ 。
+
+因此我们的最优化要求可以写成：
+
+
+$$
+\text{Objective: } \max cov[Xp_1, Yq_1] \Rightarrow \max p_1^T X^TYq_1
+$$
+
+$$
+\text{Subject to: } p^T_1p_1 = 1, q^T_1q_1 = 1
+$$
+接下来的分析求解与 CCA 的类似，同样是用 2 Lagrange multipliers ，我们得到：
+
+![image-20240416220458644](https://s2.loli.net/2024/04/16/7JKCEkm9osG2Og1.png)
+
+## Findings
+
+我们做的其实是：
+
+
+$$
+T_{n \times r} = X_{n \times p} P_{p \times r}
+$$
+
+
+很显然，没有 $P^TP = I$ 的条件，我们如果想要还原：
+
+
+$$
+T_{n \times r} P^{-1}_{r \times p} = \hat{X}_{n \times p}
+$$
+
+
+这里的 $P^{-1}_{r \times p}$ 是矩阵 $P$ 的**伪逆**。在这里我们想用 regression 的方法来找到 pseudo inverse 。
+
+> $p_1$ 和 $q_1$ 试图在 PCA 和 CCA 两种方法之间找到一个平衡，其中的背景是：
+>
+> * maximizing the variances of $Xp_1$ and $Yq_1$ .
+> *  maximizing the correlation between $Xp_1$ and $Yq_1$ .
+{: .prompt-info }
+
+既然有了 $p_1$ 和 $q_1$ ，我们可以通过迭代的方法来求解 $u_1$ 与 $v_1$ ：
+
+![image-20240416221116680](https://s2.loli.net/2024/04/16/fFEKTtwUZgIAOXP.png)
+
+## One Iteration of PLS Regression
+
+![image-20240416221151922](https://s2.loli.net/2024/04/16/c84iSstXruPa6xd.png)
+
+注意到我们的回归只是对 $u_1$ ，因为 $v_1$ 不方便计算…… 每一次迭代后，我们都让残差 $E_1$ 和 $F_1$ 当作新的 $X$ 和 $Y$ 。再进行相同的操作。
+
+## The Relationship Between Two Iterations
+
+### $p_1 \perp p_2$
+
+这意味着 $p_1$ 与 $p_2$ 相互独立。让二者直接做内积可以证明：
+
+![image-20240416221507382](https://s2.loli.net/2024/04/16/TdzrZGQbIej8WJA.png)
+
+### $u_1 \perp u_2$
+
+同样意味着 $u_1$ 和 $u_2$ 之间相互独立。
+
+![image-20240416221546899](https://s2.loli.net/2024/04/16/6EoKIjL2U3CAtxO.png)
+
+### $p_1 \perp c_2$
+
+此外还有 $p_2 \perp c_1$ , $c_1 \perp c_2$ .
+
+## After Many Iterations...
+
+在多轮次迭代后，会有：
+
+
+$$
+X = u_1c_1^T + u_2c_2^T + ... + u_nc_n^T + E_n, \text{ all combinations of } u_nc_n
+$$
+
+$$
+Y = u_1r_1^T + u_2r_2^T + ... + u_nr_n^T + F_n, \text{ all combinations of } u_nr_n
+$$
+
+所以，
+
+
+$$
+X = UC^T + E_n
+$$
+
+$$
+Y = UR^T + F_n = XPR^T + F_n = XB + F_n \text{, where } B = PR^T
+$$
+
+上面的 $B$ 就是我们的 loading matrix ， $F_n$ 是最终的 residual 。并且， $\hat{Y} = X\hat{B} = X\hat{P} \hat{R}^T$ 。
+
+* $Y$ is now actually **the sum of many regression models**.
+* In the $i^{th}$ iteration, we collect $p_i, r_i$.
+* To make prediction with new coming $x$, we can use $y^T = x^TB$
+
+这样，我们似乎已经成功 extract 一些在 $X$ 与 $Y$ 之间的东西，利用最大化方差的方式，我们做了不一样的投影，在投影后，我们有最大化了相关系数。
+
+## Example: Wine Evaluation
+
+![image-20240416222247420](https://s2.loli.net/2024/04/16/4KFy9cTUsDbtxVI.png)
+
+我们以 Wine Evaluation 来做一个例子。这个例子中有多个 predictors ，包括酒的价格、甜度、酒精度、酸度，来预测酒的三个特性。这是典型的 multiple X to multiple Y 的模型，可以用 PLSR 进行分析。
+
+![image-20240416222355972](https://s2.loli.net/2024/04/16/umveqS7Gk28J5xZ.png)
+
+直接跑一个最简单的 PLSR 来进行分析，得到上面的 $Y = XB$ 的矩阵。
+
+我们分解出了三个 component ，发现它们三个加起来在 $X$ 与 $Y$ 上都能有很接近于 1 的累计方差，这表明它成功地帮助我们解释了绝大部分的 $X$ 与 $Y$ ，实现了 Dimension Reduction 的目标。也可以利用这三个 com 来进行模型的构建与回归分析。
+
+## Reference
+
+本文中的所有图片，Slides均来源于國立台灣大學工業工程學研究所藍俊宏副教授所開設的資料分析方法課程中之 `DA04 Dimension Reduction.pdf`。特此感謝藍俊宏老師在我學習歷程上的幫助！
+
+其他参考：
+
+[:chart_with_upwards_trend:偏最小二乘：被名字耽误的降维方法.py](https://zhuanlan.zhihu.com/p/413465076)
