@@ -23,6 +23,7 @@ This is the last semester in Northeastern University. Just to take this nots to 
 
 ```mermaid
 %%{init: {'theme':'dark' , 'flowchart': { 'curve': 'bumpX' }}}%%
+
 flowchart LR
 24sp(24 Spring Courses)
 fin(Finance Course)
@@ -48,6 +49,7 @@ fin --> Fin3026 & Fin7035 & Option
 cs --> IM5030 & EE4033 & CSIE5431
 ds --> IE5054 & IM5047
 math --> COMME5051
+
 ```
 
 

@@ -25,8 +25,8 @@ Now I'm applying for several Master Program oversea in `2024-2025`. My interest 
 > Here are Several Programme Offer I have already received:
 > * Master of Science in Computer Science (Financial Computing Stream) @ Hong Kong University
 > * Master of Science in Financial Technology @ Chinese University of Hong Kong
-{: .prompt-info}
 > * Master of Science in Data Science @ Nanyang Technological University
+{: .prompt-info}
 
 > And now I still pursuit for other Graduate Programme:
 > * Master of Computing (AI Specialisation) @ National University of Singapore
