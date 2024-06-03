@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      DA04 Dimension Reduction, Part IV
+title:      DA06 Supervised Learning
 subtitle:   Data Analytics
 date:       2024-5-22 15:46:33 +0800
 author:     czx
