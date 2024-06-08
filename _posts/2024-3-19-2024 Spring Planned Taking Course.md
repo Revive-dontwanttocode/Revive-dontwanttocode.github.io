@@ -2,7 +2,7 @@
 layout:     post
 title:      2024 Spring Planned Taking Course
 subtitle:   Just an agenda...
-pin:        true
+pin:        false
 date:       2024-3-19
 author:     czx
 toc:        true
@@ -17,13 +17,12 @@ tags:
 
 # 2024 Spring Semester Planned Taking Course
 
-This is the last semester in Northeastern University. Just to take this nots to `remind` myself what I want to learn, and who I want to be.
+Just a `tentative` agenda. OF COURSE WE CAN NOT DO THAT!
 
 ## Overview
 
 ```mermaid
 %%{init: {'theme':'dark' , 'flowchart': { 'curve': 'bumpX' }}}%%
-
 flowchart LR
 24sp(24 Spring Courses)
 fin(Finance Course)
@@ -49,14 +48,11 @@ fin --> Fin3026 & Fin7035 & Option
 cs --> IM5030 & EE4033 & CSIE5431
 ds --> IE5054 & IM5047
 math --> COMME5051
-
 ```
 
 
 
 ## Finance and Economics Course 
-
-Just follow my personal interest. I shall always take several finance & economics course.
 
 ### 商業賽局模型一 ( Fin 7035 )
 
@@ -130,20 +126,20 @@ Just follow my personal interest. I shall always take several finance & economic
   - [x] ngt2021dec15part1a
   - [x] ngt2021dec15part1b
   - [x] ngt2021dec15part2
-- [ ]  **Lecture 4: Reputation Games (The Chain-store Paradox)**
-  - [ ] ngt2021dec22part1
+- [x]  **Lecture 4: Reputation Games (The Chain-store Paradox)**
+  - [x] ngt2021dec22part1
 
 ---
 
 14 Apr. to 20 Apr.
 
-- [ ] **Lecture 5: The Costly State Verification (CSV) Debt-Financing Model**
-  - [ ] ngt2021dec22part2
-  - [ ] ngt2021dec22part3
-- [ ]  **Lecture 4: Sequential Equilibrium**
-  - [ ] ngt2021dec29part1
-- [ ] **Lecture 4: Iterated Intuitive Equilibrium, Grossman-Perry Equilibrium, and Divine Equilibrium**
-  - [ ] ngt2021dec29part2
+- [x] **Lecture 5: The Costly State Verification (CSV) Debt-Financing Model**
+  - [x] ngt2021dec22part2
+  - [x] ngt2021dec22part3
+- [x]  **Lecture 4: Sequential Equilibrium**
+  - [x] ngt2021dec29part1
+- [x] **Lecture 4: Iterated Intuitive Equilibrium, Grossman-Perry Equilibrium, and Divine Equilibrium**
+  - [x] ngt2021dec29part2
 
 ---
 
@@ -194,8 +190,6 @@ To be finished.
 To be finished.
 
 ## Computer Science Course
-
-And, for more understanding and techniques for Computer Science. I also register several Computer Science Course.
 
 ### 深度學習之應用 ( Applied Deep Learning)
 
@@ -321,8 +315,6 @@ My interest is also `data science`.  Here are several Course I decided to learn.
 
 #### Timeline
 
-Just take the course `weekly`.
-
 ### 大數據與商業分析 (IM5047)
 
 > * Course Name: 大數據與商業分析 ( IM5047 )
@@ -355,7 +347,7 @@ Just take the course `weekly`.
 
 #### Timeline
 
-Just take the course `weekly`.
+To be finished.
 
 ## Mathematics
 
