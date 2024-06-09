@@ -15,6 +15,7 @@ order: 4
 > 勸君惜取少年時。
 {: .prompt-info }
 
+[Zhixi Chen's CV](https://drive.google.com/file/d/1GSMXD6OBXhgwEcmsRvAsB5VMDFFnGUmx/view?usp=sharing)
 
 ## Education 
 
