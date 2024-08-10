@@ -1,19 +1,20 @@
 ---
 layout:     post
-title:      DA06 Supervised Learning
-subtitle:   Data Analytics
-date:       2024-5-22 15:46:33 +0800
+title:      Game Theory with Applications to Finance and Marketing I, Lecture 6 Notes (Oct. 27)
+subtitle:   Game Theory
+date:       2024-8-10 20:08:15 +0800
 author:     czx
 toc:        true
 math:       true
 mermaid:    true
 catalog:    true
-categories: ['Course Notes', 'Data Analytics ( IE5054 )']
+categories: ['Course Notes', 'Game Theory ( FIN7035 )']
 comments:   true
 tags:
-  - Data Analysis
+  - Game Theory
   - Lecture Note
-  - Statistics
+  - Finance
+  - Math
 ---
 
 # Game Theory with Applications to Finance and Marketing I, Lecture 6 Notes (Oct. 27)
