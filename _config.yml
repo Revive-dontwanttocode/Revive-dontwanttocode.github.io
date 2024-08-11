@@ -40,12 +40,13 @@ zhihu:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Chis hsi Chen
-  email: chishsi.chen@outlook.com # change to your email address
+  name: Chihhsi Chen
+  email: chenchihhsi@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
-    - https://www.linkedin.com/in/chis-hsi-chen-b32a28245 # change to your github homepage
+    - https://www.linkedin.com/in/chihhsi-chen-b32a28245
+    # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
@@ -130,10 +131,10 @@ comments:
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
   gitalk:
-    clientID    : e3893f39181521bbeded # GitHub Application Client ID
+    clientID: e3893f39181521bbeded # GitHub Application Client ID
     clientSecret: 74f5bcd80b75996127b33eb30cce4e84d56b7cbb # GitHub Application Client Secret
-    repository  : Revive-dontwanttocode.github.io # GitHub repo
-    owner       : Revive-dontwanttocode # GitHub repo owner
+    repository: Revive-dontwanttocode.github.io # GitHub repo
+    owner: Revive-dontwanttocode # GitHub repo owner
     admin: Revive-dontwanttocode # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
     # - your GitHub Id
 
@@ -214,7 +215,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: [ development ]
 
 exclude:
   - "*.gem"
@@ -227,7 +228,7 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [ categories, tags ]
   layouts:
     category: category
     tag: tag
