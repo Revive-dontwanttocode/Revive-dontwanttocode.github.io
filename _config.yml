@@ -14,12 +14,12 @@ timezone: Asia/Hong_Kong
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chishsi Chen's World # the main title
+title: Chihhsi Chen's World # the main title
 
-tagline: A fancy world of Chishsi Chen. # it will display as the sub-title
+tagline: A fancy world of Chihhsi Chen. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A blog try to memorize everything myself.
+  Just a sharing blog.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,7 +29,7 @@ github:
   username: Revive-dontwanttocode # change to your github username
 
 linkedin:
-  username: chis-hsi-chen-b32a28245
+  username: chihhsi-chen-b32a28245
 
 zhihu:
   username: czx-9-65
