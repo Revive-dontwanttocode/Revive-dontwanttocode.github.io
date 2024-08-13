@@ -14,6 +14,7 @@ tags:
   - Deep Learning
   - Lecture Note
   - Computer Science
+
 ---
 
 # 2022 Deep Learning for Computer Vision Lecture1
@@ -213,10 +214,132 @@ Deduction of RoC:
 
 ## Clustering
 
+If we use term like "clustering", we mean no label we have to classified sorts of things. So, this is an unsupervised method.
+
+Normally, we will give a set of $N$ unlabeled instances $\{ x_1, ..., x_N\}$. And set the $\#$ of clusters $K$.
+
+Our goal is, to group the samples into $K$​ partitions.
+
+![image-20240813214511271](https://s2.loli.net/2024/08/13/8Gm4B7XNWU3TzFA.png)
+
+**Remark.**
+
+* For intra-cluster(aka within-cluster), we want it have high Similarity. (在一个cluster内，期望成员之间有很高的相似度)
+* For inter-cluster(aka between-cluster), we want it have low Similarity. (在不同的cluster中，期望成员之间的相似度尽可能小)
+
+So there comes a question: how to determine a proper Similarity measure?
+
+### Similarity
+
+Similarity is a key component to perform data clustering. And it is **inversely proportional to distance.**
+
+Here are some example distance metrics:
+
+* Euclidean distance (L2 norm): $d(x, z) = ||x - z||_2 = \sqrt{\sum_{i = 1}^D(x_i - z_i)^2}$
+* Manhattan distance (L1 norm): $d(x, z) = ||x - z||_1 = \sum_{i = 1}^D |x_i - z_i|$
+
+![image-20240813214951867](https://s2.loli.net/2024/08/13/2ISn6s8T9m7k1hH.png)
+
+### p-norm?
+
+现在我们来定义所谓的p-norm。
 
 
-这是一个很直观的规则，但更进一步，这个规则出错的机率是多少？好像priors并没有办法给我们答案。
+$$
+L_p \text{-norm } = d(x, z) = ||x - z||_p, x,z \in \mathbb{R}^D
+$$
 
-### Class-Conditional Probability Density
 
-考虑到我们做的是分类问题，首先我们应该专注在分类的机率密度函数上。
+其中，
+
+
+$$
+||x - z||_p = [\sum_{i = 1}^D |x_i - z_i|^p]^{1/p}
+$$
+
+
+如果p变化，会有什么结果？
+
+#### L0-norm
+
+if $p \rightarrow 0$, we have...
+
+当$p$趋近于$0$，我们知道只有非$0$数的0次方为1。因此，假如$p$趋近于$0$，可以让$|x_i - z_i|$中的非$0$项留下，而为$0$的项就从norm中除去了。因此，L0-norm的值就是$x_i \neq z_i$的个数。也就是 $\#$​ of non-zero elements。
+
+> 不过需要注意到，L0-norm不能微分！因此实际使用中如果我们希望筛选非0元素，常常用L1-norm来代替。
+>
+> {: .prompt-danger }
+
+#### L$\infty$-norm
+
+当$p \rightarrow \infty$，我们可以发现：
+
+* 如果$|x_i - z_i|$的值很大，那这个值会被不断放大，$1/p$压不住这个值，会被留下来；
+* 如果$|x_i - z_i|$的值很小，那这个值会被$1/p$压住，从而从norm中消失。
+
+因此，$\infty$ norm可以用来筛选哪个attribute之间的距离最大，就留下哪一个来。
+
+### K-means clustering
+
+这个算法非常经典，就不长篇大论介绍。
+
+![image-20240813220025845](https://s2.loli.net/2024/08/13/eTWrLKDxYEhf18t.png)
+
+我们主要来介绍这个算法的优缺点。
+
+#### Eazy to implement, but...
+
+(1) 难以处理奇形怪状的数据
+
+![image-20240814005312151](https://s2.loli.net/2024/08/14/CrSGqtNmBOLKJ3W.png)
+
+例如，像上面这种新月形数据，K-means非常难以处理。
+
+(2) limitations
+
+在K-means中，一个点只能属于某一个群，不能有“中间”状态。
+
+![image-20240814005349439](https://s2.loli.net/2024/08/14/5tvR6Ne8LTKfhzZ.png)
+
+因此，我们还有其他的方法处理K-means遇到的问题。如：
+
+* Expectation-maximization(EM) Algorithm
+* Speed-up possible by herarchical clustering
+* ...
+
+## Training, Testing and Validation
+
+Machine learning里，很重要的一部分就是所谓的训练、测试与验证。我们从Hyperparameter说起。
+
+### Hyperparameters in Machine Learning
+
+很多情况下，我们需要提前决定好模型的超参数。如，K-means聚类的K是多少？CNN要用几乘几的convolution？科学起见，我们肯定不能靠猜测。
+
+#### How to Determine Hyperparameter?
+
+**Use of validation data!**
+
+对于我们使用的data set来说，我们常常会把data set分为三个部分：training, validation, and test sets。
+
+在train我们的model时，可以选择在validation set上表现得最好的hyperparameter，再去测试集上进行测试。
+
+但……如果资料量不够多，我们的validation set分出来有点奢侈怎么办？
+
+![image-20240814010455772](https://s2.loli.net/2024/08/14/ZiwNuJIGoQDbc18.png)
+
+#### Cross validation helps! (or, k-fold validation)
+
+这个时候要请出我们熟悉的k-ford cross validation来帮忙了。
+
+![image-20240814010548619](https://s2.loli.net/2024/08/14/Pbgt2A94lkLK5qX.png)
+
+![image-20240814010616451](https://s2.loli.net/2024/08/14/QJEMR7vVFAlwU1C.png)
+
+### Minor Remarks on NN-based Methods
+
+![image-20240814010725990](https://s2.loli.net/2024/08/14/X74LHIJGRP2wFsp.png)
+
+## Linear Classification
+
+最后，我们来介绍一下经典的Linear Classification问题。
+
