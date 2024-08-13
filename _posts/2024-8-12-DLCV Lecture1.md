@@ -43,3 +43,37 @@ Assume we have a 2-class classification task. See if a student would *pass* or *
 
 > A priority or prior probability reflects the knowledge of how likely we expect a certain state of nature before observation.
 {: .prompt-danger }
+
+For example, we have $P(\omega = \omega_1)$. This can be the prior probability that the next student would pass DLCV course.
+
+> 即，在没有其他information的情况下，只来修课，pass这一门课的机率。
+{: .prompt-info }
+
+And the priors must exhibit *exclusivity* and *exhaustivity*. i.e.
+
+
+$$
+\sum_{i = 1}^n P(\omega_i) = 1
+$$
+
+![image-20240813111913835](https://s2.loli.net/2024/08/13/SIYOspwihPml9tf.png)
+
+### Decision rule based of priors only
+
+有了先验机率，我们自然要想到办法做出判断，才能体现机率的价值。现在我们来看如何制定我们的Decision Rule呢？
+
+可以这样想，假设我们期望$\omega_1$发生，那就最好要有：
+
+
+$$
+P(\omega_1) > P(\omega_2)
+$$
+
+
+否则我们认为$\omega_2$更容易发生。
+
+这是一个很直观的规则，但更进一步，这个规则出错的机率是多少？好像priors并没有办法给我们答案。
+
+### Class-Conditional Probability Density
+
+考虑到我们做的是分类问题，首先我们应该专注在分类的机率密度函数上。
