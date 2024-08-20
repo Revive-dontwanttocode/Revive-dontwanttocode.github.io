@@ -14,7 +14,6 @@ tags:
   - Deep Learning
   - Lecture Note
   - Computer Science
-
 ---
 
 # 2022 Deep Learning for Computer Vision Lecture1
