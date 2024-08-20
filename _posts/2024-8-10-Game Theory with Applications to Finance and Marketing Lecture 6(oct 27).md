@@ -221,3 +221,7 @@ $$
 ## probability Cournot Game
 
 最后是一个带机率的古诺模型。
+
+## Reference
+This note is mainly derived from Chyi-mei Chen's `Game Theory with Applications to Marketing and Finance, I` Course @ National Taiwan University.
+Thanks him for giving this kind of excellent lecture.

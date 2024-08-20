@@ -151,3 +151,7 @@ q_2^* = \frac {1- q_1} {2}
 $$
 
 可以看出这是一个关于$q_1$的减函数。因此，经常有市场的leader故意增加产量，逼迫follower减产，从而获取额外利益。这也解释了为何均衡时的价格相较于Cournot Game略低。
+
+## Reference
+This note is mainly derived from Chyi-mei Chen's `Game Theory with Applications to Marketing and Finance, I` Course @ National Taiwan University.
+Thanks him for giving this kind of excellent lecture.

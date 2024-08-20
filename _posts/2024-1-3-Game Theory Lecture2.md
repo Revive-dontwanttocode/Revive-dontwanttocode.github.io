@@ -146,4 +146,7 @@ Let's see the *prisoner's dilemma* question:
 不过需要注意：
 
 * 如果删除的都是strictly dominated strategy，则删除的顺序对最终的结果没有影响；
-* 如果删除的是
+
+## Reference
+This note is mainly derived from Chyi-mei Chen's `Game Theory with Applications to Marketing and Finance, I` Course @ National Taiwan University.
+Thanks him for giving this kind of excellent lecture.

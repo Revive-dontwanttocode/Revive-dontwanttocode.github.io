@@ -155,3 +155,7 @@ $$
 ### Theorem 5 : NE in Symmetric game
 
 > A finite symmetric game has a symmetric Nash equilibrium in mixed strategy.  
+
+## Reference
+This note is mainly derived from Chyi-mei Chen's `Game Theory with Applications to Marketing and Finance, I` Course @ National Taiwan University.
+Thanks him for giving this kind of excellent lecture.

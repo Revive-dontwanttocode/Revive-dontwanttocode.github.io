@@ -100,5 +100,7 @@ Consider a two-player game, where the two must pick an integer from the set {1, 
 * Find the pure strategy NE’s. 
 * Find the mixed strategy NE’s.
 
-Solution:
-![example2-4](https://hackmd.io/_uploads/Byvaf4bdp.jpg)
+
+## Reference
+This note is mainly derived from Chyi-mei Chen's `Game Theory with Applications to Marketing and Finance, I` Course @ National Taiwan University.
+Thanks him for giving this kind of excellent lecture.
