@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# <center> Chishsi Chen
+# <center> Zhixi Chen / Chihhsi Chen
 
 > 又見新花發故枝，
 > 青梅如豆柳如絲。
