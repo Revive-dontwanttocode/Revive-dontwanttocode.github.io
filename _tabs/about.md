@@ -21,6 +21,8 @@ order: 4
 
 ### Graduate
 
+<font color=red>[Final Decision]</font>I am now studying at Nanyang Technology University(Singapore) MSc in Data Science Programme.
+
 Now I'm applying for several Master Program oversea in `2024-2025`. My interest is `Financial Technology`, `Data Science` and `Financial Engineering`.
 
 > Here are Several Programme Offer I have already received:
@@ -40,10 +42,6 @@ I received my **Bachelor of Engineering Degree on Software Engineering** in Nort
 
 My major is `Software Engineering`, and my minor is `Finance`. 
 I studied at `Financial Technology` Track.
-
-### Master
-
-I am now studying at Nanyang Technology University(Singapore) MSc in Data Science Programme.
 
 ## Experience
 
