@@ -31,8 +31,7 @@ Now I'm applying for several Master Program oversea in `2024-2025`. My interest 
 
 > And now I still pursuit for other Graduate Programme:
 > * Master of Computing (AI Specialisation) @ National University of Singapore
-> * Master of Science in Financial Engineering @ National University of Singapore
-> * Master of Science in Financial Technology @ Hong Kong University of Science and Technology 
+> * Master of Science in Digital Financial Technology @ National University of Singapore
 {: .prompt-tip}
 
 ### Bachelor
@@ -41,6 +40,10 @@ I received my **Bachelor of Engineering Degree on Software Engineering** in Nort
 
 My major is `Software Engineering`, and my minor is `Finance`. 
 I studied at `Financial Technology` Track.
+
+### Master
+
+I am now studying at Nanyang Technology University(Singapore) MSc in Data Science Programme.
 
 ## Experience
 
@@ -57,14 +60,13 @@ I studied at `Financial Technology` Track.
 
 * Third Class Scholarship, Northeastern University - May. 2024
 * Third Class Scholarship, Northeastern University - Nov. 2023
-* First Prize and Most Creative Award, 2023 Northeastern University LLM Financial Development Competition - May. 2023
+* First Prize and Most Creative Award, 2023 Northeastern University Large Language Model Financial Development Competition - May. 2023
 * Third Class Scholarship, Northeastern University - Nov. 2022
 * Outstanding Individual with Academic Strengths at Northeastern University - Nov.2022
 * National Second Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
 * Provincial First Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM) - Nov. 2022
 * Honorable Mention, 2022 Mathematical Contest in Modeling (MCM) - Apr. 2022
 * Outstanding Individual with Academic Strengths at Northeastern University - Nov. 2021
-* Third Prize, National English Competition for College Students - May. 2021
 * Northeastern University Freshman Debate Competition, Top 3 of Hunnan Campus - Dec. 2020
 
 ## Patent and Software Copyright
