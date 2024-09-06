@@ -1,3 +1,22 @@
+---
+layout:     post
+title:      Deep Learning for Computer Vision Lecture 3
+subtitle:   DLCV
+date:       2024-9-6 16:23:58 +0800
+author:     czx
+toc:        true
+math:       true
+mermaid:    true
+catalog:    true
+categories: ['Course Notes', 'Deep Learning for Computer Vision ( COMME5052 )']
+comments:   true
+tags:
+  - Deep Learning
+  - Lecture Note
+  - Computer Science
+
+---
+
 # 2022 Deep Learning and Computer Vision Lecture 3
 
 In this lecture, we will continue to go through `CNN` and its applications. Moreover, we will delve into other tricks and designs that increase the performance of CNN.
