@@ -289,3 +289,130 @@ To avoid so called `black box`. We want to visualize the CNN kernel. To see what
 
 We always want to visualize the final layer of CNN. With respect to PCA, t-SNE, and so on.
 
+### t-SNE Method
+
+We often use `t-SNE` method to do the visualization. The reason is,
+
+* Powerful tool for data visualization.
+* Help understand black-box algorithms like `CNN`.
+* Alleviate crowding problem.
+
+## Other layers?
+
+In other layers, we are more interested in the *maximum activation* problem. To get the feature picture, we can do:
+
+* Run images through the network or the layer,
+* Record values of each selected channel. (Mind that we can only do it on channel. A channel is connected to a kernel, so that we can find which part of the image reacts a lot.)
+* Visualize image patches that correspond to maximal activations.
+
+![image-20240910145054106](https://s2.loli.net/2024/09/10/ei3xk52ghRZbc4p.png)
+
+### Saliency with occlusion...
+
+可以通过mask部分image的方式来找到最重要的部分。这也相当于让我们知道kernel识别到了影像的什么位置，从而导致能够识别并classify某个image。
+
+![image-20240910145241378](https://s2.loli.net/2024/09/10/ax9VfIKOtCzsXg1.png)
+
+### Activation maximization
+
+Activation maximization is a technique that helping us find the most **critical** part in a layer. The idea of activation maximization is,
+
+
+$$
+x^* = \arg \max_{x,  s.t. ||x|| = \rho} h_{ij}(\theta, x)
+$$
+
+
+where $x$ is our input, it usually can be a random noise. $\theta$ is our trained model parameter. we must make sure that it is fixed. And $h_{ij}$ is the activation of a given unit $i$, from a layer $j$ in the network.
+
+After we get the random input, we can perform **gradient ascent** in the input space. To maximize the $h_{ij}$.
+
+Moreover, we need to specify two hyper parameters: learning rate and stopping criterion.
+
+![image-20240910145927992](https://s2.loli.net/2024/09/10/eksOd1xjPHA6U4f.png)
+
+## Image Segmentation
+
+Now we introduce the next part of image classification, which is, Image Segmentation.
+
+In image segmentation, our goal is to group pixels into meaningful or perceptually similer regions.
+
+> What is "similar" pixel?
+>
+> i.e. colour, meaning, brightness, etc.
+{: .prompt-info }
+
+One of the application of image segmentation is `object detection.` See:
+
+![image-20240910150315904](https://s2.loli.net/2024/09/10/93xUAv67TC14YKM.png)
+
+### More Tasks in Segmentation
+
+* Cosegmentation
+
+Cosecmentation is a technology that segmenting commom objects from multiple images.
+
+常见的应用是“以图搜图”。
+
+![image-20240910150919634](https://s2.loli.net/2024/09/10/5sdrBPYnGQ7kjCq.png)
+
+* Instance Segmentation
+
+Instance segmentation aims to assign each pixel an object instance. i.e. figure out different type of cars.
+
+![image-20240910151012652](https://s2.loli.net/2024/09/10/vPfmXF7D5r4OqaM.png)
+
+## A Pratical Segmentation Task
+
+Semantic Segmentation is one of a pratical segmentation tasks. It is a kind of supervised learning task. Not only categorised the pixels, but also need to assign a class label to each pixel input image.
+
+However, it does not care difference instances of one object.
+
+![image-20240910151804841](https://s2.loli.net/2024/09/10/fVC6paZvum21G9x.png)
+
+### Sliding Window Method
+
+One method is `Sliding Window Method`. In this method, we just use a CNN kernel, force it traverse all pixels in an image, and do the classification.
+
+![image-20240910151915144](https://s2.loli.net/2024/09/10/yKFa4UxqOcYLE1z.png)
+
+But it is not a wise method! See, the efficiency of this method is really slow, as we need to traverse all pixels! Many computations needed.
+
+### Fully Convolutional Nets
+
+![image-20240910152020888](https://s2.loli.net/2024/09/10/GaVtMPv7WQkhdx9.png)
+
+Another way is to use `Fully Convolutional Nets`. We use kernels to learn features, and form a wide feature map, with dimension $(C \times H \times W)$. Then, we do the $\arg\max$ onto the channel. To see what class a pixel is. Finanlly form the predictions with $(H \times W)$.
+
+But it is also inefficiency! Improve it?
+
+![image-20240910152228029](https://s2.loli.net/2024/09/10/9ncalBUeAorfh2d.png)
+
+We can `zip` the image into a small one, and reconstruct it to the origional size.
+
+Let's introduce the most important part: `Upsampling`.
+
+### Upsampling
+
+#### Unpooling
+
+![image-20240910152403807](https://s2.loli.net/2024/09/10/hR2o6BzH8VfQEuZ.png)
+
+* Nearest Neighbour - 采用一样的value填充padding。
+* Bed of Nails - 补0。
+
+![image-20240910152456000](https://s2.loli.net/2024/09/10/UfarqY8xSLjtpEo.png)
+
+Max Unpooling是和Max Pooling相反的方法。
+
+在Max Pooling中，我们记住了每个element的位置。所以在Max Unpooling中，我们要按照Max Pooling的位置进行element的还原，将这些填充到对应的区域，其他区域补0。
+
+#### Learnable Upsampling
+
+![image-20240910152630184](https://s2.loli.net/2024/09/10/TeVI8Z4ckuvqUPL.png)
+
+用类似CNN的方法来做，是一种learnable的方法。
+
+![image-20240910153207729](https://s2.loli.net/2024/09/10/FnYq4Xl7632mCMI.png)
+
+
