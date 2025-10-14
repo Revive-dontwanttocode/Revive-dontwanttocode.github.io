@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://revive-dontwanttocode.github.io/al-folio/sitemap.xml
+Sitemap: https://revive-dontwanttocode.github.io/sitemap.xml
