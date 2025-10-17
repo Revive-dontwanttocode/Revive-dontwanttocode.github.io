@@ -29,4 +29,4 @@ latest_posts:
 
 Hi, I'm Zhixi Chen (Chih-Hsi Chen). I am currently a MSc (Data Science). student in the College of Computing and Data Science (CCDS) at  [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. I obtained my Bachelor degree in Software engineering from Northeastern University(China) in 2024.
 
-I am now conducting master research project under the supervision with [Yinan Zhang](https://zhangynnancy.github.io/) and [Zhiqi Shen](https://personal.ntu.edu.sg/zqshen/).
+I am now conducting a master research project under the supervision with [Yinan Zhang](https://zhangynnancy.github.io/) and [Zhiqi Shen](https://personal.ntu.edu.sg/zqshen/).
