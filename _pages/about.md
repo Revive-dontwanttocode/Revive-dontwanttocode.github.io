@@ -2,16 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: avatar_1.jpg
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,6 +22,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Zhixi Chen (Chih-Hsi Chen). I am currently a MSc (Data Science). student in the College of Computing and Data Science (CCDS) at  [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. I obtained my Bachelor degree in Software engineering from Northeastern University(China) in 2024.
+Hi, I'm Zhixi Chen (Chih-Hsi Chen). I am currently a MSc (Data Science). student in the College of Computing and Data Science (CCDS) at  [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. I obtained my B.Eng degree in Software engineering (Financial Technology Track) and minor in Finance from Northeastern University, Shenyang, China in 2024.
 
 I am now conducting a master research project under the supervision with [Yinan Zhang](https://zhangynnancy.github.io/) and [Zhiqi Shen](https://personal.ntu.edu.sg/zqshen/).
