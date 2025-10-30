@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. I am now conducting a master research project under the supervision with <a href="https://zhangynnancy.github.io/">Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Zhiqi Shen</a>.
-
-My research interest includes neural machine translation and computer vision.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. I am now conducting a master research project under the supervision with <a href="https://zhangynnancy.github.io/">Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Zhiqi Shen</a>. Currently, I am conducting research related to **Large Language Model** and its application on **Recommendation System**.
 
 # 📖 Educations
 - *2024.08 - 2026.01 (expected)*, Master of Science in Data Science @ Nanyang Technological University.
