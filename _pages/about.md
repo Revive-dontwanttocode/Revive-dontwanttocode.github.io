@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen
+Hi there👋. I'm Zhixi Chen. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'> College of Computing and Data Science (CCDS) </a> at <a href="https://www.ntu.edu.sg/"> Nanyang Technological University </a>, Singapore.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=zmhR9joAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes neural machine translation and computer vision.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-- *2020.09 - 2024.06*, Bachelor of Engineering in Software Engineering, Financial Technology Track (互联网金融实验班) @ Northeastern University (China).
+- *2024.08 - 2026.01 (expected)*, Master of Science in Data Science @ Nanyang Technological University.
+- *2020.09 - 2024.06*, Bachelor of Engineering in Software Engineering, Financial Technology Track (互联网金融实验班) @ Northeastern University (China), with Minor in Finance.
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
