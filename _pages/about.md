@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'> College of Computing and Data Science (CCDS) </a> at <a href="https://www.ntu.edu.sg/"> Nanyang Technological University </a>, Singapore.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-hsi Chen), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'> College of Computing and Data Science (CCDS) </a> at <a href="https://www.ntu.edu.sg/"> Nanyang Technological University </a>, Singapore. I am now conducting a master research project under the supervision with <a href="https://zhangynnancy.github.io/"> Yinan Zhang </a> and <a href="https://personal.ntu.edu.sg/zqshen/"> Zhiqi Shen</a>.
 
 My research interest includes neural machine translation and computer vision.
 
