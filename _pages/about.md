@@ -3,7 +3,7 @@ permalink: /
 title: "Chih-Hsi Chen"
 excerpt: "Chih-Hsi Chen"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1RatryoflnegbNnUwMJWmfYSDjr6MOuH8/view?usp=drive_link" style="font-weight:bold;">here</a>.
 
 I am now conducting a master research project related to **Large Language Model** and its application on **Recommendation System**, under the supervision with <a href="https://zhangynnancy.github.io/">Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Zhiqi Shen</a>.
 
-My research <span style="text-decoration: underline; font-weight:bold;">includes but not limited</span> to,
+My research interest <span style="text-decoration: underline; font-weight:bold;">includes but not limited</span> to,
 * Large Language Models and its application to business and finance
 * Statistical Data Analysis
 * Machine Learning / Deep Learning on Finance
