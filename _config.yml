@@ -145,6 +145,9 @@ sass:
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Set paginate
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Plugins
 plugins:
@@ -160,9 +163,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-paginate: 5
-paginate_path: "/blog/page:num/"
 
 # HTML Compression
 # - http://jch.penibelst.de/
