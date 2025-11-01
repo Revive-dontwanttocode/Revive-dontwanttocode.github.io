@@ -2,6 +2,7 @@
 layout: default
 title: "Chih-Hsi Chen's Blog"
 permalink: /blog/
+author_profile: true
 ---
 
 <div class="page__content" markdown="1">
