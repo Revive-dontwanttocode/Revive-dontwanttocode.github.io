@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chih-Hsi Chen's Blog"
-permalink: /useful_link/
+permalink: /useful_links/
 author_profile: true
 ---
 
