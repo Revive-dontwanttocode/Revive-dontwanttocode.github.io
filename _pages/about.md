@@ -30,12 +30,12 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-weight:bold;">Computer Vision</span>. :(
 
 # 📖 Educations
-- *2024.08 - 2026.01 (expected)*: &nbsp Master of Science in Data Science @ Nanyang Technological University.
-- *2020.09 - 2024.06*: &nbsp Bachelor of Engineering in Software Engineering, Financial Technology Track (互联网金融实验班) @ Northeastern University (China), with Minor in Finance.
+- *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ Nanyang Technological University, Singapore.
+- *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (互联网金融实验班) @ Northeastern University, China, with Minor in Finance.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.11.01*: I'm seeking for PhD opportunity.
+- *2025.10.28*: Updated my personal page.
 
 # 📝 Publications
 
@@ -66,7 +66,7 @@ Berlin, Chicago, Dublin, Edinburgh
 
 [Example Projects Link](https://google.com)
 
-Zhixi Chen, Zimu Li, Yin Zhang
+Zhixi Chen, Zimu Li, Yin Zhang$^*$
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 </div>
@@ -77,4 +77,4 @@ Zhixi Chen, Zimu Li, Yin Zhang
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💻 Internships
-- *2023.05 - 2023.08*, Link-in China.
+- *2023.05 - 2023.07*, Java Development Engineer @ Link-Us Tech Co., Ltd.
