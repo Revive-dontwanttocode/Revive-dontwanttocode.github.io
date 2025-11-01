@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Chih-Hsi Chen's Blog"
 permalink: /blog/
 ---
