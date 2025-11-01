@@ -29,7 +29,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Chih-Hsi Chen"
-  avatar           : "images/avatar_1.jpg"
+  avatar           : "/images/avatar_1.jpg"
   bio              : "Master Student@Nanyang Technological University"
   location         : "Singapore"
   employer         :
