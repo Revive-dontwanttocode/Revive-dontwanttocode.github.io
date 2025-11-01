@@ -16,7 +16,7 @@ Below are several useful links.
 <div class='paper-box'><div class='paper-box-image'>
   <div>
   <div class="badge">National Taiwan University</div>
-  <img src='images/500x300.png' alt="sym" width="100%">
+  <img src='/images/ntu_logo_blue_red.png' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
