@@ -10,16 +10,11 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
-gem "jekyll", "~> 4.3.3"
-gem "jekyll-paginate-v2"
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-redirect-from"
-gem "jemoji"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
@@ -29,7 +24,4 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
-  gem "jekyll-paginate-v2"
-  gem "jekyll-redirect-from"
-  gem "jemoji"
 end

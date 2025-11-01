@@ -151,7 +151,7 @@ paginate_path: "/blog/page:num/"
 
 # Plugins
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -159,7 +159,7 @@ plugins:
   - jemoji
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
