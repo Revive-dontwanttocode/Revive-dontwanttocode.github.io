@@ -3,6 +3,10 @@ layout: default
 title: "Chih-Hsi Chen's Blog"
 permalink: /blog/
 author_profile: true
+pagination:
+  enabled: true
+  per_page: 10
+  collection: "posts"
 ---
 
 <div class="page__content">
