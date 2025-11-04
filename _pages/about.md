@@ -58,17 +58,20 @@ Berlin, Chicago, Dublin, Edinburgh
 # 🔮 Projects
 <div class='paper-box'><div class='paper-box-image'>
   <div>
-  <div class="badge">To be finished</div>
+  <div class="badge">StockInfoM</div>
   <img src='images/500x300.png' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Example Projects Link](https://google.com)
+[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1Y4ym1qY4AOSU3lFkhAIYvTlY5P9A2DfI/view?usp=sharing)
 
 Zhixi Chen, Zimu Li, Yin Zhang$^*$
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- A Chinese A-share stock market data visualising application.
+- Showing different types of stock data.
+- Already applied for the computer software copyright registration (Registration No. 2023SR0473375).
+
 </div>
 </div>
 
