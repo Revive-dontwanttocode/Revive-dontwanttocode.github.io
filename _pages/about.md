@@ -78,7 +78,7 @@ Zhixi Chen, Zimu Li, Yin Zhang$^*$
 # 🎖 Honors and Awards
 - *2022.11*, National Second Prize and Provincial First Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM).
 - *2022.04*, Honorable Mention Prize, 2022 Mathematical Contest in Modeling (MCM).
-- *2022, 2023, 2024*, Northeastern University Third-class Scholarship. 
+- *2022, 2023, 2024*, Northeastern University School Scholarship. 
 - *2021, 2022, 2023*, Northeastern University Outstanding Individual with Academic Strengths.
 
 # 💻 Internships
