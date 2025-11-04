@@ -76,8 +76,14 @@ Zhixi Chen, Zimu Li, Yin Zhang$^*$
 </div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.11*, National Second Prize and Provincial First Prize, 2022 China Undergraduate Mathematical Contest in Modeling (CUMCM).
+- *2022.04*, Honorable Mention Prize, 2022 Mathematical Contest in Modeling (MCM).
+- *2022, 2023, 2024*, Northeastern University Third-class Scholarship. 
+- *2021, 2022, 2023*, Northeastern University Outstanding Individual with Academic Strengths.
 
 # 💻 Internships
 - *2023.05 - 2023.07*, Java Development Engineer @ Link-Us Tech Co., Ltd.
+
+# Other Experiences
+- *2023.01 - 2023.03*, attended Cambridge AI+ Programme (Financial Big Data Track).
+- *2021.12 - 2022.12*, Vice-Captain of Northeastern University Software College Debate Team.
