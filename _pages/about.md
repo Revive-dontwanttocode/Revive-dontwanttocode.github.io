@@ -31,7 +31,7 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 
 # 📖 Educations
 - *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
-- *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (互联网金融实验班), with Minor in Finance @ Software College, Northeastern University, China.
+- *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
 - *2025.11.01*: I'm actively seeking for PhD opportunity in *2026 Fall*.
