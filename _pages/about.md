@@ -23,9 +23,10 @@ I am now conducting a master research project related to **Large Language Model*
 
 My research interest <span style="text-decoration: underline; font-weight:bold;">includes but not limited</span> to,
 * Large Language Models and its application to business and finance
+* Quantitative Finance with Machine Learning / Deep Learning Methods
 * Statistical Data Analysis
-* Machine Learning / Deep Learning on Finance
 * Recommendation Systems
+* Large Language Models
 
 Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-weight:bold;">Computer Vision</span>. :(
 
@@ -34,22 +35,23 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
-- *2025.11.01*: I'm actively seeking for PhD opportunity in *2026 Fall*.
-- *2025.10.28*: Updated my personal page.
+- *2025.10.20*: I'm actively seeking for PhD opportunity in *2026 Fall*.
+- *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
+
 
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'>
   <div>
-  <div class="badge">To be finished</div>
+  <div class="badge">Under Review</div>
   <img src='images/500x300.png' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Example Link](https://google.com)
+[Predictive Insights with Language Models for Item Popularity Dynamics](https://google.com)
 
-Berlin, Chicago, Dublin, Edinburgh
+Yinan Zhang$^*$, Zhixi Chen$^*$, Jiazheng Jing, Zhiqi Shen$^dagger$
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 </div>
@@ -82,6 +84,7 @@ Zhixi Chen, Zimu Li, Yin Zhang$^*$
 - *2021, 2022, 2023*, Northeastern University Outstanding Individual with Academic Strengths.
 
 # 💻 Internships
+- *2025.01 - Now*, Research Assistant @ Alibaba-NTU Global e-Sustainability CorpLab (ANGEL), Nanyang Technological University.
 - *2023.05 - 2023.07*, Java Development Engineer @ Link-Us Tech Co., Ltd.
 
 # Other Experiences
