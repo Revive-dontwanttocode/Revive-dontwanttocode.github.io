@@ -51,7 +51,7 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 
 [Predictive Insights with Language Models for Item Popularity Dynamics](https://google.com)
 
-Yinan Zhang$^*$, Zhixi Chen$^*$, Jiazheng Jing, Zhiqi Shen$^dagger$
+Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 </div>
