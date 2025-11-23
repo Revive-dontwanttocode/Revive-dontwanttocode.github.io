@@ -36,8 +36,9 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 
 # 🔥 News
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
-- *2025.10.20*: I'm actively seeking for PhD opportunity in *2026 Fall*.
+- *2025.10.10*: I'm actively seeking for PhD opportunity in *2026 Fall*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
+- *2024.08.12*: Started my M.Sc. in Data Science program at Nanyang Technological University.
 - *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
 
 
