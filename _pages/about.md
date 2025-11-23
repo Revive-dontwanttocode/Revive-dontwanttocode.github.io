@@ -69,13 +69,13 @@ Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 </div>
 <div class='paper-box-text' markdown="1">
 
-[SSST: Shanghai–Shenzhen Stock Tracker]()
+[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1Y4ym1qY4AOSU3lFkhAIYvTlY5P9A2DfI)
 
-Zhixi Chen, Zimu Li, Yin Zhang$^\*$
+Zhixi Chen, Zimu Li, Yin Zhang$^\*$, Dec. 2022
 
 - A Chinese A-share stock market data visualising application.
 - Showing different types of stock data.
-- Already applied for the computer software copyright registration (Registration No. 2023SR0473375).
+- Already successfully applied for the computer software copyright registration (Registration No. 2023SR0473375).
 
 </div>
 </div>
