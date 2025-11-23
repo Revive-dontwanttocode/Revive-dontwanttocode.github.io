@@ -53,7 +53,7 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 
 [Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
-Yinan Zhang$^*$, Zhixi Chen$^*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
+Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
 - Master Research Project under NTU-ANGEL Lab.
 </div>
@@ -70,7 +70,7 @@ Yinan Zhang$^*$, Zhixi Chen$^*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
 [SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR)
 
-Zhixi Chen, Zimu Li, Yin Zhang$^*$
+Zhixi Chen, Zimu Li, Yin Zhang$^\*$
 
 - A Chinese A-share stock market data visualising application.
 - Showing different types of stock data.
