@@ -26,7 +26,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 * Quantitative Finance with Machine Learning / Deep Learning Methods
 * Statistical Data Analysis
 * Recommendation Systems
-* Reinforcement Learning
+* Reinforcement Learning and its application to finance or LLMs
 
 Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-weight:bold;">Computer Vision</span>. :(
 
