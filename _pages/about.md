@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1RatryoflnegbNnUwMJWmfYSDjr6MOuH8/view?usp=drive_link" style="font-weight:bold;">here</a>.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am a MSc (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng in Software Engineering degree (Financil Technology Track) with Minor in Finance at <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR" style="font-weight:bold;">here</a>.
 
 I am now conducting a master research project related to **Large Language Model** and its application on **Recommendation System**, under the supervision with <a href="https://zhangynnancy.github.io/">Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Zhiqi Shen</a>.
 
@@ -63,12 +63,12 @@ Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 <div class='paper-box'><div class='paper-box-image'>
   <div>
   <div class="badge">StockInfoM</div>
-  <img src='images/500x300.png' alt="sym" width="100%">
+  <img src='images/SSST_example.png' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR)
+[SSST: Shanghai–Shenzhen Stock Tracker]()
 
 Zhixi Chen, Zimu Li, Yin Zhang$^\*$
 
