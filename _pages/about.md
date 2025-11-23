@@ -26,7 +26,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 * Quantitative Finance with Machine Learning / Deep Learning Methods
 * Statistical Data Analysis
 * Recommendation Systems
-* Large Language Models
+* Reinforcement Learning
 
 Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-weight:bold;">Computer Vision</span>. :(
 
@@ -35,25 +35,27 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
+- *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
 - *2025.10.20*: I'm actively seeking for PhD opportunity in *2026 Fall*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
+- *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
 
 
-# 📝 Publications
+# 📝 Publications & Research Works
 
 <div class='paper-box'><div class='paper-box-image'>
   <div>
   <div class="badge">Under Review</div>
-  <img src='images/500x300.png' alt="sym" width="100%">
+  <img src='images/MS_Proj_Frame.jpg' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Predictive Insights with Language Models for Item Popularity Dynamics](https://google.com)
+[Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
-Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
+Yinan Zhang$^*$, Zhixi Chen$^*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- Master Research Project under NTU-ANGEL Lab.
 </div>
 </div>
 
@@ -66,7 +68,7 @@ Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 </div>
 <div class='paper-box-text' markdown="1">
 
-[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1Y4ym1qY4AOSU3lFkhAIYvTlY5P9A2DfI/view?usp=sharing)
+[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR)
 
 Zhixi Chen, Zimu Li, Yin Zhang$^*$
 
