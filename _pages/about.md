@@ -28,14 +28,14 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 * Recommendation Systems
 * Reinforcement Learning and its application to LLMs or Finance
 
-<span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 admission. </span>. :)
+<span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 admission. </span> :)
 
 # 📖 Educations
 - *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
-- *2026.01.13*: 🎉🎉 One paper accepted by *The ACM Web Conference (WWW 2026)*!
+- *2026.01.13*: 🎉🎉 One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :)
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
 - *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
@@ -53,7 +53,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
+[Following the TRAIL: Predicting and Explaining Tomorrow’s Hits with a Fine-Tuned LLM](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
 Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
