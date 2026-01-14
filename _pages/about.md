@@ -26,17 +26,18 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 * Quantitative Finance with Machine Learning / Deep Learning Methods
 * Statistical Data Analysis
 * Recommendation Systems
-* Reinforcement Learning and its application to finance or LLMs
+* Reinforcement Learning and its application to LLMs or Finance
 
-Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-weight:bold;">Computer Vision</span>. :(
+<span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 admission. </span>. :)
 
 # 📖 Educations
 - *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
+- *2026.01.13*: 🎉🎉 One paper accepted by *The ACM Web Conference (WWW 2026)*!
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
-- *2025.10.10*: I'm actively seeking for PhD opportunity in *2026 Fall*.
+- *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
 - *2024.08.12*: Started my M.Sc. in Data Science program at Nanyang Technological University.
 - *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
@@ -46,7 +47,7 @@ Moreover, I DO NOT love anything related to <span style="color:#DC143C; font-wei
 
 <div class='paper-box'><div class='paper-box-image'>
   <div>
-  <div class="badge">Under Review</div>
+  <div class="badge">WWW 2026</div>
   <img src='images/MS_Proj_Frame.jpg' alt="sym" width="100%">
   </div>
 </div>
@@ -91,5 +92,5 @@ Zhixi Chen, Zimu Li, Yin Zhang$^\*$, Dec. 2022
 - *2023.05 - 2023.07*, Java Development Engineer @ Link-Us Tech Co., Ltd.
 
 # Other Experiences
-- *2023.01 - 2023.03*, attended Cambridge AI+ Programme (Financial Big Data Track).
+- *2023.01 - 2023.03*, Attended Cambridge AI+ Programme (Financial Big Data Track).
 - *2021.12 - 2022.12*, Vice-Captain of Northeastern University Software College Debate Team.
