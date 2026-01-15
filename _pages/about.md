@@ -35,7 +35,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
-- *2026.01.13*: 🎉🎉 One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :)
+- *2026.01.13*: 🎉🎉 <span style="color:#DC143C; font-weight:bold;"> One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :) </span>
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
 - *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall Intake*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
