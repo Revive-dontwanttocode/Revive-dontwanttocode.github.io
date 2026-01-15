@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me Humphrey. Currently, I am an M.Sc. (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng. in Software Engineering degree (Financial Technology Track) with Minor in Finance in <a href="http://sc.neu.edu.cn/">Software College</a>, <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR" style="font-weight:bold;">here</a>.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me *Humphrey*. Currently, I am an M.Sc. (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng. in Software Engineering degree (Financial Technology Track) with Minor in Finance in <a href="http://sc.neu.edu.cn/">Software College</a>, <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1gQxQkmhBsPY0zfjkntSUdG-FxaI7xchR" style="font-weight:bold;">here</a>.
 
-I am now conducting a master research project related to **Large Language Model** and its application on **Recommendation System**, under the supervision with <a href="https://zhangynnancy.github.io/">Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Zhiqi Shen</a>.
+I am now conducting a master research project related to **Large Language Model** and its application on **Recommendation System**, under the supervision with <a href="https://zhangynnancy.github.io/">Dr. Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Dr. Zhiqi Shen</a>.
 
 My research interest <span style="text-decoration: underline; font-weight:bold;">includes but not limited</span> to,
 * Large Language Models and its application to business and finance
@@ -28,7 +28,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 * Recommendation Systems
 * Reinforcement Learning and its application to LLMs or Finance
 
-<span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 admission. </span> :)
+<span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 Admission. </span> :)
 
 # 📖 Educations
 - *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
@@ -37,7 +37,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 # 🔥 News
 - *2026.01.13*: 🎉🎉 One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :)
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
-- *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall*.
+- *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall Intake*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
 - *2024.08.12*: Started my M.Sc. in Data Science program at Nanyang Technological University.
 - *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
@@ -47,13 +47,13 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 
 <div class='paper-box'><div class='paper-box-image'>
   <div>
-  <div class="badge">WWW 2026</div>
+  <div class="badge">Research Project</div>
   <img src='images/MS_Proj_Frame.jpg' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Following the TRAIL: Predicting and Explaining Tomorrow’s Hits with a Fine-Tuned LLM](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
+[Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
 Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
