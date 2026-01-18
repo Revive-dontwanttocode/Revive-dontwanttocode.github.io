@@ -42,7 +42,6 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 - *2024.08.12*: Started my M.Sc. in Data Science program at Nanyang Technological University.
 - *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
 
-
 # 📝 Publications & Research Works
 
 <div class='paper-box'><div class='paper-box-image'>
@@ -53,7 +52,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
+[[Nov. 2025]Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
 Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
@@ -70,9 +69,9 @@ Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 </div>
 <div class='paper-box-text' markdown="1">
 
-[SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1Y4ym1qY4AOSU3lFkhAIYvTlY5P9A2DfI)
+[[Dec. 2022] SSST: Shanghai–Shenzhen Stock Tracker](https://drive.google.com/file/d/1Y4ym1qY4AOSU3lFkhAIYvTlY5P9A2DfI)
 
-Zhixi Chen, Zimu Li, Yin Zhang$^\*$, Dec. 2022
+Zhixi Chen, Zimu Li, Yin Zhang$^\*$
 
 - A Chinese A-share stock market data visualising application.
 - Showing different types of stock data.
