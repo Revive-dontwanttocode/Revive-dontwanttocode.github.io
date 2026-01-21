@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name), you can just call me *Humphrey*. Currently, I am an M.Sc. (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng. in Software Engineering degree (Financial Technology Track) with Minor in Finance in <a href="http://sc.neu.edu.cn/">Software College</a>, <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1D3J6fA7g5iRJj41AiruCjbZ47DMpJSiT" style="font-weight:bold;">here</a>.
+Hi there👋. I'm Zhixi Chen (Sometimes I choose Chih-Hsi Chen as my name, my Chinese name is 陈治希 or 陳治希), you can just call me *Humphrey*. Currently, I am an M.Sc. (Data Science) student in the <a href='https://www.ntu.edu.sg/computing'>College of Computing and Data Science (CCDS)</a> at <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Singapore. I obtained my B.Eng. in Software Engineering degree (Financial Technology Track) with Minor in Finance in <a href="http://sc.neu.edu.cn/">Software College</a>, <a href="https://neu.edu.cn/">Northeastern University</a>, Shenyang, Liaoning, China. You can find the detailed Curriculum Vitae <a href="https://drive.google.com/file/d/1D3J6fA7g5iRJj41AiruCjbZ47DMpJSiT" style="font-weight:bold;">here</a>.
 
 I am now conducting a master research project related to **Large Language Model** and its application on **Recommendation System**, under the supervision with <a href="https://zhangynnancy.github.io/">Dr. Yinan Zhang</a> and <a href="https://personal.ntu.edu.sg/zqshen/">Dr. Zhiqi Shen</a>.
 
@@ -52,7 +52,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 </div>
 <div class='paper-box-text' markdown="1">
 
-[[Nov. 2025]Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
+[[Nov. 2025] Predictive Insights with Language Models for Item Popularity Dynamics](https://drive.google.com/file/d/1E4oGhIt2LEoxpKrmtPgZqspm1438GIf3)
 
 Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
