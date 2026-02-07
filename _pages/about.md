@@ -31,10 +31,11 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 <span style="color:#DC143C; font-weight:bold;">I am actively seeking Ph.D. opportunities for Fall 2026 Admission. </span> :)
 
 # 📖 Educations
-- *2024.08 - 2026.01 (expected)*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
+- *2024.08 - 2026.01*: Master of Science in Data Science @ College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
+- *2026.01.31*: 🎉🎉 Graduated from Nanyang Technological University with M.Sc. in Data Science degree. 🎉🎉
 - *2026.01.13*: 🎉🎉 <span style="color:#DC143C; font-weight:bold;"> One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :) </span>
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
 - *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall Intake*.
