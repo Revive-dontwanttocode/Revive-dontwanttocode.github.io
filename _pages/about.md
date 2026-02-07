@@ -48,7 +48,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 <div class='paper-box'><div class='paper-box-image'>
   <div>
   <div class="badge">Research Project</div>
-  <img src='images/MS_Proj_Frame.jpg' alt="sym" width="100%">
+  <img src='images/TRAIL_arc.pdf' alt="sym" width="100%">
   </div>
 </div>
 <div class='paper-box-text' markdown="1">
