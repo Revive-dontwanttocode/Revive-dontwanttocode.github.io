@@ -35,13 +35,13 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 - *2020.09 - 2024.06*: Bachelor of Engineering in Software Engineering, Financial Technology Track (金融科技实验班), with Minor in Finance @ Software College, Northeastern University, China.
 
 # 🔥 News
-- *2026.01.31*: 🎉🎉 Graduated from Nanyang Technological University with M.Sc. in Data Science degree. 🎉🎉
+- *2026.01.31*: Graduated from *Nanyang Technological University* with **M.Sc. in Data Science** degree.
 - *2026.01.13*: 🎉🎉 <span style="color:#DC143C; font-weight:bold;"> One paper accepted by *The ACM Web Conference (WWW 2026)*! This is my first research paper as a co-first author. :) </span>
 - *2025.11.21*: Defended my M.Sc. project *Predictive Insights with Language Models for Item Popularity Dynamics* successfully.
 - *2025.10.10*: 📬📬 I'm actively seeking for Ph.D. opportunity in *2026 Fall Intake*.
 - *2025.01.17*: As a research assistant, started the research project *Predictive Insights with Language Models for Item Popularity Dynamics* under NTU-ANGEL lab.
-- *2024.08.12*: Started my M.Sc. in Data Science program at Nanyang Technological University.
-- *2024.06.28*: Graduated from Northeastern University with B.Eng. in Software Engineering degree.
+- *2024.08.12*: Started my M.Sc. in Data Science program study at Nanyang Technological University.
+- *2024.06.28*: Graduated from *Northeastern University* with **B.Eng. in Software Engineering** degree.
 
 # 📝 Publications & Research Works
 
@@ -58,6 +58,7 @@ My research interest <span style="text-decoration: underline; font-weight:bold;"
 Yinan Zhang$^\*$, Zhixi Chen$^\*$, Jiazheng Jing, Zhiqi Shen$^\dagger$
 
 - Master Research Project under NTU-ANGEL Lab.
+- See the arxiv preprint paper [here](https://arxiv.org/abs/2602.04225).
 </div>
 </div>
 
